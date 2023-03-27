@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException
 firefox_path = r'C:\Program Files\Mozilla Firefox\firefox.exe'
 service = Service(executable_path="D:\C DRIVE STUFF\Downloads\geckodriver-v0.32.2-win32\geckodriver.exe")
 options = Options()
-options.add_argument("--user-data-dir=D:/Selenium Projects")
+options.add_argument("--user-data-dir=D:/Testing-Project")
 options.add_argument('-headless')
 driver = webdriver.Firefox(service=service, options=options, firefox_binary=firefox_path)
 
