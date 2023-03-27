@@ -9,13 +9,15 @@ from selenium.common.exceptions import NoSuchElementException
 firefox_path = r'C:\Program Files\Mozilla Firefox\firefox.exe'
 service = Service(executable_path="D:\C DRIVE STUFF\Downloads\geckodriver-v0.32.2-win32\geckodriver.exe")
 options = Options()
-options.add_argument("--user-data-dir=D:/Testing-Project")
+options.add_argument("--user-data-dir=D:/Selenium Projects")
 options.add_argument('-headless')
-driver = webdriver.Firefox(service=service, options=options, firefox_binary=firefox_path)
+options.binary_location = firefox_path
+driver = webdriver.Firefox(service=service, options=options)
 
 driver.get("https://automationexercise.com")
 
-login_button = driver.find_element_by_xpath("//a[@href='/login']")
+login_button = driver.find_element(By.XPATH, "//a[@href='/login']")
 
 login_button.click()
 driver.save_screenshot("login_clicked.png")
+driver.quit()

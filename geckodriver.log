@@ -1,0 +1,21 @@
+1679930541716	geckodriver	INFO	Listening on 127.0.0.1:63608
+1679930544785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Testing-Project" "-head ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileN6GkT5"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679930545030	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679930545034	Marionette	INFO	Listening on port 63617
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:63609
+Read port: 63617
+1679930545254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileN6GkT5\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63609/devtools/browser/acc0fe06-c965-4dd9-8d05-ada6042a6d46
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TU2PSynrXT7p2KnzXte8fEgQWf4_RAVzpVc0SCm-B08.js line 2 > eval line 7363 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TU2PSynrXT7p2KnzXte8fEgQWf4_RAVzpVc0SCm-B08.js line 2 > eval line 6395 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TU2PSynrXT7p2KnzXte8fEgQWf4_RAVzpVc0SCm-B08.js line 2 > eval line 5409 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679930692956	geckodriver	INFO	Listening on 127.0.0.1:63726
