@@ -16,8 +16,20 @@ driver = webdriver.Firefox(service=service, options=options)
 
 driver.get("https://automationexercise.com")
 
-login_button = driver.find_element(By.XPATH, "//a[@href='/login']")
+login_link = driver.find_element(By.XPATH, "//a[@href='/login']")
 
+login_link.click()
+#driver.save_screenshot("login_clicked.png")
+
+email_box = driver.find_element(By.XPATH, "/html/body/section/div/div/div[1]/div/form/input[2]")
+pass_box = driver.find_element(By.XPATH, "/html/body/section/div/div/div[1]/div/form/input[3]")
+login_button = driver.find_element(By.XPATH, "/html/body/section/div/div/div[1]/div/form/button")
+email_box.send_keys("bweiler@qac.com")
+pass_box.send_keys("password")
 login_button.click()
-driver.save_screenshot("login_clicked.png")
+time.sleep(5)
+
+driver.save_screenshot("loggedin.png")
+
+
 driver.quit()
