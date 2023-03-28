@@ -36,14 +36,15 @@ login_link = driver.find_element(By.XPATH, "//a[@href='/login']")
 login_link.click()
 
 
-email_box = wait.until(EC.visibility_of_element_located((By.XPATH, "/html/body/section/div/div/div[1]/div/form/input[2]")))
-pass_box = wait.until(EC.visibility_of_element_located((By.XPATH, "/html/body/section/div/div/div[1]/div/form/input[3]")))
-login_button = wait.until(EC.visibility_of_element_located((By.XPATH, "/html/body/section/div/div/div[1]/div/form/button")))
+email_box = driver.find_element(By.XPATH, "//*[@data-qa='login-email']")
+
+pass_box = driver.find_element(By.XPATH, "//*[@data-qa='login-password']")
+login_button = driver.find_element(By.XPATH, "//*[@data-qa='login-button']")
 email_box.send_keys("bweiler@qac.com")
 pass_box.send_keys("password")
 login_button.click()
 
-prod_link = wait.until(EC.visibility_of_element_located((By.XPATH, "//a[@href='/products']")))
+prod_link = driver.find_element(By.XPATH, "//div[@class='shop-menu pull-right']//a[@href='/products']")
 prod_link.click()
 
 
@@ -61,41 +62,41 @@ for shirt in selected_shirts:
     shirt.click()
     numShirts += 1
     if numShirts == 1:
-        continueShopping = driver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div/div[3]/button")
+        continueShopping = driver.find_element(By.XPATH, "//div[@class='modal-footer']/descendant::button")
         continueShopping.click()
 
-viewCart = driver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div/div[2]/p[2]/a")
+viewCart = driver.find_element(By.XPATH, "//div[@class='modal-body']/descendant::a")
 viewCart.click()
 
 deletes = driver.find_elements(By.CLASS_NAME, "cart_quantity_delete")
 random_shirt_to_delete = random.choice(deletes)
 random_shirt_to_delete.click()
 
-checkout_butt = driver.find_element(By.XPATH, "/html/body/section/div/section/div[1]/div/div/a")
+checkout_butt = driver.find_element(By.XPATH, '//div[@class="col-sm-6"]/descendant::a')
 checkout_butt.click()
 
-order_butt = driver.find_element(By.XPATH, "/html/body/section/div/div[7]/a")
+order_butt = driver.find_element(By.XPATH, "//a[@class='btn btn-default check_out']")
 order_butt.click()
 
-nameOnCard = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[1]/div/input")
+nameOnCard = driver.find_element(By.XPATH, "//input[@name='name_on_card']")
 nameOnCard.send_keys("Joseph Mama")
 
-cardNumber = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[2]/div/input")
+cardNumber = driver.find_element(By.XPATH, "//input[@name='card_number']")
 cardNumber.send_keys("1234567891011121")
 
-cvc = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[3]/div[1]/input")
+cvc = driver.find_element(By.XPATH, "//input[@name='cvc']")
 cvc.send_keys("123")
 
-ex_month = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[3]/div[2]/input")
+ex_month = driver.find_element(By.XPATH, "//input[@name='expiry_month']")
 ex_month.send_keys("03")
 
-ex_day = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[3]/div[3]/input")
-ex_day.send_keys("13")
+ex_year = driver.find_element(By.XPATH, "//input[@name='expiry_year']")
+ex_year.send_keys("2023")
 
-confirm_payment_butt = driver.find_element(By.XPATH, '//*[@id="submit"]')
+confirm_payment_butt = driver.find_element(By.XPATH, '//div[@class="form-row"]//button[@id="submit"]')
 confirm_payment_butt.click()
 
-invoice_butt = driver.find_element(By.XPATH, "/html/body/section/div/div/div/a")
+invoice_butt = driver.find_element(By.XPATH, "//div[@class='row']//a[@class='btn btn-default check_out']")
 invoice_butt.click()
 
 driver.quit()

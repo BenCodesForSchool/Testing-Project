@@ -3249,3 +3249,159 @@ JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: 
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1679969489749	Marionette	INFO	Stopped listening on port 56912
 Dynamically enable window occlusion 1
+1680013650312	geckodriver	INFO	Listening on 127.0.0.1:51708
+1680013653313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile5oj99w"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680013653550	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680013653553	Marionette	INFO	Listening on port 51717
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51709
+Read port: 51717
+1680013653785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile5oj99w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51709/devtools/browser/af980160-35e7-4413-a612-e1d365c16cf2
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680014364726	Marionette	INFO	Stopped listening on port 51717
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofiled5PA2I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680013697176	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680013697178	Marionette	INFO	Listening on port 51767
+Read port: 51767
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51760
+1680013697247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofiled5PA2I\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51760/devtools/browser/dad1d596-d7c0-4961-beff-a12761c45b47
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680013712181	Marionette	INFO	Stopped listening on port 51767
+Dynamically enable window occlusion 1
+1680014280555	geckodriver	INFO	Listening on 127.0.0.1:51947
+1680014283605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileMRNbdm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680014283821	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680014283824	Marionette	INFO	Listening on port 51955
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51948
+Read port: 51955
+1680014284043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileMRNbdm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51948/devtools/browser/3d0b2f6b-848c-4701-b521-535f87e1a4d6
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680014329449	Marionette	INFO	Stopped listening on port 51951680014331071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileQhqyye"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680014331279	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680014331283	Marionette	INFO	Listening on port 52006
+Read port: 52006
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51999
+1680014331349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileQhqyye\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51999/devtools/browser/c869c9ce-2018-43de-858d-f7079cf5c3b1
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680014364029	Marionette	INFO	Stopped listening on port 52006
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileA3FFVR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680014360686	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680014360689	Marionette	INFO	Listening on port 52056
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52049
+Read port: 52056
+1680014360873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileA3FFVR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52049/devtools/browser/d47765c3-26f3-43a8-aa52-1498dd2dc65f
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1680015372388	Marionette	INFO	Stopped listening on port 52056
+Dynamically enable window occlusion 1
+remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilestk0dU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680015295801	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680015295804	Marionette	INFO	Listening on port 52296
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52289
+Read port: 52296
+1680015295983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilestk0dU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52289/devtools/browser/7f54bf40-cb0f-454c-9583-8b99eb6339fd
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680015331160	Marionette	INFO	Stopped listening on port 52296
+Dynamically enable window occlusion 1
+1680015374424	geckodriver	INFO	Listening on 127.0.0.1:52360
+1680015377465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileP76LL6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680015377680	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680015377683	Marionette	INFO	Listening on port 52368
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52361
+Read port: 52368
+1680015377862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileP76LL6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52361/devtools/browser/d9a19407-e233-4c3a-823f-4895c797bde1
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680015395427	Marionette	INFO	Stopped listening on port 52368
+Dynamically enable window occlusion 1
