@@ -49,23 +49,24 @@ time.sleep(2)
 
 product_search = wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="search_product"]')))
 search_butt = wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="submit_search"]')))
-
 product_search.send_keys("tshirts")
 search_butt.click()
 
-nummaShirts = 0
-shirts = driver.find_elements(By.CLASS_NAME, "btn btn-default add-to-cart")
+numShirts = 0
+shirts = driver.find_elements(By.XPATH, "//div[@class='productinfo text-center']//a[contains(text(), 'Add to cart')]")
+
+print(len(shirts))
 selected_shirts = random.sample(shirts, k=2)
 
 for shirt in selected_shirts:
     shirt.click()
-    nummaShirts += 1
-    if(nummaShirts == 2):
-        viewCart = webdriver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div/div[2]/p[2]/a")
+    numShirts += 1
+    if(numShirts == 2):
+        viewCart = driver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div/div[2]/p[2]/a")
         viewCart.click()
     else:
-        continueShopping = webdriver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div/div[3]/button")
+        continueShopping = driver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div/div[3]/button")
         continueShopping.click()
-
+time.sleep(10)
 
 driver.quit()
