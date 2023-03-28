@@ -45,7 +45,7 @@ login_button.click()
 
 prod_link = wait.until(EC.visibility_of_element_located((By.XPATH, "//a[@href='/products']")))
 prod_link.click()
-time.sleep(2)
+
 
 product_search = wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="search_product"]')))
 search_butt = wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="submit_search"]')))
@@ -74,5 +74,31 @@ print(len(deletes))
 random_shirt_to_delete = random.choice(deletes)
 random_shirt_to_delete.click()
 
+checkout_butt = driver.find_element(By.XPATH, "/html/body/section/div/section/div[1]/div/div/a")
+checkout_butt.click()
+
+order_butt = driver.find_element(By.XPATH, "/html/body/section/div/div[7]/a")
+order_butt.click()
+
+nameOnCard = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[1]/div/input")
+nameOnCard.send_keys("Joseph Mama")
+
+cardNumber = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[2]/div/input")
+cardNumber.send_keys("1234567891011121")
+
+cvc = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[3]/div[1]/input")
+cvc.send_keys("123")
+
+ex_month = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[3]/div[2]/input")
+ex_month.send_keys("03")
+
+ex_day = driver.find_element(By.XPATH, "/html/body/section/div/div[3]/div/div[2]/form/div[3]/div[3]/input")
+ex_day.send_keys("13")
+
+confirm_payment_butt = driver.find_element(By.XPATH, '//*[@id="submit"]')
+confirm_payment_butt.click()
+
+invoice_butt = driver.find_element(By.XPATH, "/html/body/section/div/div/div/a")
+invoice_butt.click()
 
 driver.quit()
