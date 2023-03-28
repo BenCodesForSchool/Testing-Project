@@ -55,13 +55,11 @@ search_butt.click()
 numShirts = 0
 shirts = driver.find_elements(By.XPATH, "//div[@class='productinfo text-center']//a[contains(text(), 'Add to cart')]")
 
-print(len(shirts))
 selected_shirts = random.sample(shirts, k=2)
 
 for shirt in selected_shirts:
     shirt.click()
     numShirts += 1
-    print("numshirts" + str(numShirts))
     if numShirts == 1:
         continueShopping = driver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/div/div[1]/div/div/div[3]/button")
         continueShopping.click()
@@ -70,7 +68,6 @@ viewCart = driver.find_element(By.XPATH, "/html/body/section[2]/div/div/div[2]/d
 viewCart.click()
 
 deletes = driver.find_elements(By.CLASS_NAME, "cart_quantity_delete")
-print(len(deletes))
 random_shirt_to_delete = random.choice(deletes)
 random_shirt_to_delete.click()
 
