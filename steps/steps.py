@@ -4,7 +4,7 @@ import time
 import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
+
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
@@ -14,25 +14,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import FirefoxProfile
 import random
 
-def before_all(context: Context):
-    firefox_path = r'C:\Program Files\Mozilla Firefox\firefox.exe'
-    service = Service(executable_path="D:\C DRIVE STUFF\Downloads\geckodriver-v0.32.2-win32\geckodriver.exe")
-    options = Options()
-    options.set_preference("browser.startup.homepage", "https://www.google.com/")
-    options.set_preference("browser.cache.disk.enable", False)
-    options.set_preference("browser.cache.memory.enable", False)
-    options.set_preference("browser.cache.offline.enable", False)
-    options.set_preference("network.http.use-cache", False)
-    options.add_argument("--user-data-dir=D:/Selenium Projects")
-    #options.add_argument('-headless')
-    options.binary_location = firefox_path
-    driver = webdriver.Firefox(service=service, options=options)
-    #wait = WebDriverWait(driver, 10)
-    driver.install_addon(r"D:/C DRIVE STUFF/Downloads/uBlock0_1.47.4.firefox.signed.xpi", temporary=True)
-    context.driver = driver
 
 @given("the user navigates to the shopping website")
-def step_impl(context: Context):
+def step_impl(context):
     context.driver.get("https://automationexercise.com")
 
 @when("the user logs in with valid credentials")
@@ -119,7 +103,7 @@ def step_impl(context):
 @then("the invoice file should be downloaded")
 def step_impl(context):
     # replace 'invoice.txt' with the name of the downloaded file
-    file_path = os.path.join(os.path.expanduser("~"), "Downloads", "invoice.txt")
+    file_path = os.path.join("D:\\", "C DRIVE STUFF", "Downloads", "invoice.txt")
     
     assert os.path.exists(file_path), f"File {file_path} not found"
     assert os.path.getsize(file_path) > 0, f"File {file_path} is empty"
