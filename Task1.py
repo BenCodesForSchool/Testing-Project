@@ -31,7 +31,7 @@ driver.get("https://automationexercise.com")
 
 
 
-login_link = driver.find_element(By.XPATH, "//a[@href='/login']")
+login_link = driver.find_element(By.XPATH, "//div[@class='shop-menu pull-right']//a[@href='/login']")
 
 login_link.click()
 
