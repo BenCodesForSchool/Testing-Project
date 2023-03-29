@@ -13,4 +13,4 @@ Feature: Shopping cart functionality
     And enters payment information
     And confirms the payment
     And downloads the invoice
-    Then the user should see the order invoice
+    Then the invoice file should be downloaded

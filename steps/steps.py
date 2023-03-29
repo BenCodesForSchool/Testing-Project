@@ -1,5 +1,7 @@
 from behave import given, when, then
+from behave.runner import Context
 import time
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
@@ -12,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import FirefoxProfile
 import random
 
-def before_all(context):
+def before_all(context: Context):
     firefox_path = r'C:\Program Files\Mozilla Firefox\firefox.exe'
     service = Service(executable_path="D:\C DRIVE STUFF\Downloads\geckodriver-v0.32.2-win32\geckodriver.exe")
     options = Options()
@@ -30,8 +32,7 @@ def before_all(context):
     context.driver = driver
 
 @given("the user navigates to the shopping website")
-def step_impl(context):
-    #context.driver = webdriver.Firefox()
+def step_impl(context: Context):
     context.driver.get("https://automationexercise.com")
 
 @when("the user logs in with valid credentials")
@@ -114,3 +115,11 @@ def step_impl(context):
 def step_impl(context):
     invoice_butt = context.driver.find_element(By.XPATH, "//div[@class='row']//a[@class='btn btn-default check_out']")
     invoice_butt.click()
+
+@then("the invoice file should be downloaded")
+def step_impl(context):
+    # replace 'invoice.txt' with the name of the downloaded file
+    file_path = os.path.join(os.path.expanduser("~"), "Downloads", "invoice.txt")
+    
+    assert os.path.exists(file_path), f"File {file_path} not found"
+    assert os.path.getsize(file_path) > 0, f"File {file_path} is empty"
