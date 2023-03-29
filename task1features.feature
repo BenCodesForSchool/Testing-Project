@@ -9,6 +9,8 @@ Feature: Shopping cart functionality
     And selects some products to add to the cart
     And deletes one product from the cart
     And proceeds to checkout
+    And confirms address and reviews order
     And enters payment information
     And confirms the payment
+    And downloads the invoice
     Then the user should see the order invoice
