@@ -1,12 +1,24 @@
 import configparser
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
+import logging
+import os
 def before_all(context):
+
+
     # Create a Config object
     config = configparser.ConfigParser()
     
     # Read the configuration values from config.ini
     config.read('config.ini')
+    print("Current working directory:", os.getcwd())
+
+    file_handler = logging.FileHandler(filename='D:\\Testing-Project\\test.log')
+    file_handler.setLevel(logging.DEBUG)
+    
+    # Add the file handler to the logger
+    logger = logging.getLogger()
+    logger.addHandler(file_handler)
 
     # Create a FirefoxOptions object and set the browser preferences
     options = webdriver.FirefoxOptions()
@@ -23,3 +35,16 @@ def before_all(context):
 
     # Set the driver to the context object
     context.driver = driver
+    
+    context.logger = logging.getLogger()
+    context.logger.addHandler(file_handler)
+
+def after_all(context):
+    # Get the logger and remove the file handler
+    logger = logging.getLogger()
+    handlers = logger.handlers[:]
+    for handler in handlers:
+        handler.close()
+        logger.removeHandler(handler)
+    # Set up logging statements
+    logger.info("Finished running test suite.")
