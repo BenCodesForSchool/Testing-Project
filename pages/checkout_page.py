@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 
 class CheckoutPage:
+    #Simply finding the "Place Order" button and clicking it in the place_order method
     PLACE_ORDER_BUTTON = (By.XPATH, "//a[@class='btn btn-default check_out']")
 
     def __init__(self, driver):

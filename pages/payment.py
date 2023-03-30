@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 
 class Payment:
+    #Finding the text boxes for all relevant credit card information, as well as the button that submits credit card information and confirms the user's payent.
     NAME_ON_CARD = (By.XPATH, "//input[@name='name_on_card']")
     CARD_NUMBER = (By.XPATH, "//input[@name='card_number']")
     CVC = (By.XPATH, "//input[@name='cvc']")
@@ -10,7 +11,7 @@ class Payment:
 
     def __init__(self, driver):
         self.driver = driver
-
+    #Sending specified credit card information to the corresponding text boxes
     def input_payment_info(self, nameOnCard, cardNumber, cVc, exMonth, exYear):
         name_on_card = self.driver.find_element(*self.NAME_ON_CARD)
         card_number = self.driver.find_element(*self.CARD_NUMBER)
@@ -23,7 +24,7 @@ class Payment:
         cvc.send_keys(cVc)
         expiration_month.send_keys(exMonth)
         expiration_year.send_keys(exYear)
-    
+    #Clicking the confirm payment button
     def confirm_payment(self):
         confirm_payment = self.driver.find_element(*self.CONFIRM_PAYMENT_BUTTON)
         confirm_payment.click()

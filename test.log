@@ -22,3 +22,25 @@ Starting step: downloading the invoice
 Completed step: downloading the invoice in 5.213596 seconds
 Starting step: invoice file should be downloaded
 Completed step: invoice file should be downloaded in 0.0 seconds
+Starting step: the user navigates to the shopping website
+Completed step: the user navigates to the shopping website in 2.017315 seconds
+Starting step: the user logs in with valid credentials
+Completed step: the user logs in with valid credentials in 2.015868 seconds
+Starting step: searches for a product
+Completed step: searches for a product in 0.748048 seconds
+Starting step: selects some products to add to the cart
+Completed step: selects some products to add to the cart in 1.227036 seconds
+Starting step: deletes one product from the cart
+Completed step: deletes one product from the cart in 0.209036 seconds
+Starting step: proceeds to checkout
+Completed step: proceeds to checkout in 0.327908 seconds
+Starting step: confirms address and reviews order
+Completed step: confirms address and reviews order in 0.158123 seconds
+Starting step: enters payment information
+Completed step: enters payment information in 0.039001 seconds
+Starting step: confirms the payment
+Completed step: confirms the payment in 1.319001 seconds
+Starting step: downloading the invoice
+Completed step: downloading the invoice in 5.222066 seconds
+Starting step: invoice file should be downloaded
+Completed step: invoice file should be downloaded in 0.0 seconds
