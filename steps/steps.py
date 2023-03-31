@@ -1,18 +1,5 @@
 from behave import given, when, then
-from behave.runner import Context
-import time
-import os
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from datetime import datetime
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver import FirefoxProfile
-import random
 from pages.homepage import HomePage
 from pages.login_page import LoginPage
 from pages.product_search import ProductSearch

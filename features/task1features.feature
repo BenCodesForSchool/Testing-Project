@@ -14,3 +14,7 @@ Feature: Shopping cart functionality
     And confirms the payment
     And downloads the invoice
     Then the invoice file should be downloaded
+
+  Scenario: User fails to login using invalid credentials
+    When the user attempts to log in with invalid credentials
+    Then the login should fail
