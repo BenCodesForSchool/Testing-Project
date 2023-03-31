@@ -28,5 +28,8 @@ class Payment:
     def confirm_payment(self):
         confirm_payment = self.driver.find_element(*self.CONFIRM_PAYMENT_BUTTON)
         confirm_payment.click()
+        if "https://automationexercise.com/#google_vignette" in self.driver.current_url:
+            self.driver.back()
+            confirm_payment.click()
 
     

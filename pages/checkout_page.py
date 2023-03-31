@@ -10,3 +10,6 @@ class CheckoutPage:
     def place_order(self):
         place_order = self.driver.find_element(*self.PLACE_ORDER_BUTTON)
         place_order.click()
+        if "https://automationexercise.com/#google_vignette" in self.driver.current_url:
+            self.driver.back()
+            place_order.click()

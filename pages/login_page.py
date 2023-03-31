@@ -1,4 +1,7 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from time import time
 
 class LoginPage:
     #Finding the email and password text boxes, as well as the login button and the link to the products section of the website
@@ -6,6 +9,9 @@ class LoginPage:
     PASSWORD_INPUT = (By.XPATH, '//*[@data-qa="login-password"]')
     LOGIN_BUTTON = (By.XPATH, '//*[@data-qa="login-button"]')
     PRODUCTS_LINK =prod_link = (By.XPATH, "//div[@class='shop-menu pull-right']//a[@href='/products']")
+    PESKY_IFRAME = (By.XPATH, "//iframe[contains(@name, 'aswift') and contains(@style, 'visibility: visible')]")
+    DISMISS_BUTTON = (By.XPATH, "//div[@id='dismiss-button']")
+    AD_IFRAME = (By.ID, "ad_iframe")
 
     def __init__(self, driver):
         self.driver = driver
@@ -22,3 +28,6 @@ class LoginPage:
     def go_to_products_page(self):
         products_link = self.driver.find_element(*self.PRODUCTS_LINK)
         products_link.click()
+        if "https://automationexercise.com/#google_vignette" in self.driver.current_url:
+            self.driver.back()
+            products_link.click()

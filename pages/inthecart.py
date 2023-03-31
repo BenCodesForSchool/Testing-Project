@@ -22,3 +22,6 @@ class InTheCart:
         #clicking the button to proceed to checkout
         checkout_butt = self.driver.find_element(*self.CHECKOUT_BUTTON)
         checkout_butt.click()
+        if "https://automationexercise.com/#google_vignette" in self.driver.current_url:
+            self.driver.back()
+            checkout_butt.click()
