@@ -323,3 +323,89 @@ Starting step: downloading the invoice
 Completed step: downloading the invoice in 5.209645 seconds
 Starting step: invoice file should be downloaded
 Completed step: invoice file should be downloaded in 0.0 seconds
+Starting step: the user navigates to the shopping website
+Completed step: the user navigates to the shopping website in 2.10538 seconds
+Starting step: the user logs in with valid credentials
+Completed step: the user logs in with valid credentials in 2.301932 seconds
+Starting step: searches for a product
+Completed step: searches for a product in 0.919483 seconds
+Starting step: selects some products to add to the cart
+Completed step: selects some products to add to the cart in 1.145331 seconds
+Starting step: deletes one product from the cart
+Completed step: deletes one product from the cart in 0.215072 seconds
+Starting step: proceeds to checkout
+Completed step: proceeds to checkout in 0.462166 seconds
+Starting step: confirms address and reviews order
+Completed step: confirms address and reviews order in 0.162525 seconds
+Starting step: enters payment information
+Completed step: enters payment information in 0.066 seconds
+Starting step: confirms the payment
+Completed step: confirms the payment in 1.297274 seconds
+Starting step: downloading the invoice
+Completed step: downloading the invoice in 5.211998 seconds
+Starting step: invoice file should be downloaded
+Completed step: invoice file should be downloaded in 0.0 seconds
+Starting step: the user navigates to the shopping website
+Error occurred in step: the user navigates to the shopping website. Error message: Message: Unable to locate element: //div[@class='shop-menu pull-right']//a[@href='/login']
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+Starting step: the user navigates to the shopping website
+Completed step: the user navigates to the shopping website in 2.589184 seconds
+Starting step: the user logs in with valid credentials
+Completed step: the user logs in with valid credentials in 1.917676 seconds
+Starting step: searches for a product
+Completed step: searches for a product in 0.826029 seconds
+Starting step: selects some products to add to the cart
+Completed step: selects some products to add to the cart in 1.358273 seconds
+Starting step: deletes one product from the cart
+Completed step: deletes one product from the cart in 0.214493 seconds
+Starting step: proceeds to checkout
+Completed step: proceeds to checkout in 0.633493 seconds
+Starting step: confirms address and reviews order
+Completed step: confirms address and reviews order in 0.160034 seconds
+Starting step: enters payment information
+Completed step: enters payment information in 0.037002 seconds
+Starting step: confirms the payment
+Completed step: confirms the payment in 1.275062 seconds
+Starting step: downloading the invoice
+Completed step: downloading the invoice in 5.21226 seconds
+Starting step: invoice file should be downloaded
+Completed step: invoice file should be downloaded in 0.0 seconds
+Starting step: the user navigates to the shopping website
+Error occurred in step: the user navigates to the shopping website. Error message: Message: Unable to locate element: //div[@class='shop-menu pull-right']//a[@href='/login']
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+Starting step: the user navigates to the shopping website
+Completed step: the user navigates to the shopping website in 2.34945 seconds
+Starting step: the user logs in with valid credentials
+Completed step: the user logs in with valid credentials in 2.895715 seconds
+Starting step: searches for a product
+Completed step: searches for a product in 0.873356 seconds
+Starting step: selects some products to add to the cart
+Completed step: selects some products to add to the cart in 1.69887 seconds
+Starting step: deletes one product from the cart
+Completed step: deletes one product from the cart in 0.208882 seconds
+Starting step: proceeds to checkout
+Completed step: proceeds to checkout in 0.475804 seconds
+Starting step: confirms address and reviews order
+Completed step: confirms address and reviews order in 0.171142 seconds
+Starting step: enters payment information
+Completed step: enters payment information in 0.043 seconds
+Starting step: confirms the payment
+Completed step: confirms the payment in 1.291953 seconds
+Starting step: downloading the invoice
+Completed step: downloading the invoice in 5.87325 seconds
+Starting step: invoice file should be downloaded
+Completed step: invoice file should be downloaded in 0.0 seconds
+Starting step: the user navigates to the shopping website
+Completed step: the user navigates to the shopping website in 1.641609 seconds
+Starting step: the user attempts to log in with invalid credentials
+Error in step: the user attempts to log in with invalid credentials

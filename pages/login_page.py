@@ -1,6 +1,4 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from time import time
 
 class LoginPage:
@@ -12,6 +10,8 @@ class LoginPage:
     PESKY_IFRAME = (By.XPATH, "//iframe[contains(@name, 'aswift') and contains(@style, 'visibility: visible')]")
     DISMISS_BUTTON = (By.XPATH, "//div[@id='dismiss-button']")
     AD_IFRAME = (By.ID, "ad_iframe")
+    #Including the URL so that it can be verified later to ensure that the FailedLoginAttempt test case fails
+    LOGIN_PAGE_URL = "https://automationexercise.com/login"
 
     def __init__(self, driver):
         self.driver = driver

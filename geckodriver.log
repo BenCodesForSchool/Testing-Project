@@ -7053,3 +7053,158 @@ JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: 
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1680281686497	Marionette	INFO	Stopped listening on port 59187
 Dynamically enable window occlusion 1
+1680288257898	geckodriver	INFO	Listening on 127.0.0.1:60424
+1680288260916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60425" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileEjaWH8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680288261135	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680288261138	Marionette	INFO	Listening on port 60432
+WebDriver BiDi listening on ws://127.0.0.1:60425
+Read port: 60432
+1680288261317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileEjaWH8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60425/devtools/browser/9cccff14-b14d-4dcf-af0b-af6ccc3e9a1e
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+nd: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60623" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileF3eukE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680288594094	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680288594097	Marionette	INFO	Listening on port 60630
+Read port: 60630
+WebDriver BiDi listening on ws://127.0.0.1:60623
+1680288594166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileF3eukE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60623/devtools/browser/a09875eb-a5fd-4e79-815b-f907d7c5c4f0
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680288733252	geckodriver	INFO	Listening on 127.0.0.1:60697
+1680288736291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60698" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileeiOg45"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680288736509	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680288736512	Marionette	INFO	Listening on port 60705
+WebDriver BiDi listening on ws://127.0.0.1:60698
+Read port: 60705
+1680288736693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileeiOg45\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60698/devtools/browser/e62e51e7-be0e-4a43-ba29-f75939ea211d
+1680288752382	Marionette	INFO	Stopped listening on port 60705
+Dynamically enable window occlusion 1
+1680288804036	geckodriver	INFO	Listening on 127.0.0.1:60760
+1680288807070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilek7tpcQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680288807283	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680288807286	Marionette	INFO	Listening on port 60770
+WebDriver BiDi listening on ws://127.0.0.1:60761
+Read port: 60770
+1680288807474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilek7tpcQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60761/devtools/browser/a3b54a20-00c9-4566-886f-bbdbec66d230
+1680288814681	Marionette	INFO	Stopped listening on port 60770
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680289084777	geckodriver	INFO	Listening on 127.0.0.1:60856
+1680289087808	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileZUoPRY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680289088023	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680289088026	Marionette	INFO	Listening on port 60865
+WebDriver BiDi listening on ws://127.0.0.1:60857
+Read port: 60865
+1680289088202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileZUoPRY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60857/devtools/browser/a4181cba-54e6-4ed4-95c8-a86bf9c3b421
+1680289098446	Marionette	INFO	Stopped listening on port 60865
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680289838552	geckodriver	INFO	Listening on 127.0.0.1:60997
+1680289841590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60998" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileCrjU9g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680289841804	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680289841807	Marionette	INFO	Listening on port 61005
+Read port: 61005
+WebDriver BiDi listening on ws://127.0.0.1:60998
+1680289841876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileCrjU9g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60998/devtools/browser/7f0dfd36-a3ea-4865-a108-76a4c2fc75ad
+1680290043422	Marionette	INFO	Stopped listening on port 61005
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile3RUolh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680289929861	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680289929864	Marionette	INFO	Listening on port 61062
+WebDriver BiDi listening on ws://127.0.0.1:61055
+Read port: 61062
+1680289930063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile3RUolh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61055/devtools/browser/07bd7fea-86be-4b0e-9b88-3d9e8660da34
+1680290044076	Marionette	INFO	Stopped listening on port 61062
+Dynamically enable window occlusion 1
+1680290266878	geckodriver	INFO	Listening on 127.0.0.1:61184
+1680290269919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileyOYFWh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680290270135	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680290270138	Marionette	INFO	Listening on port 61192
+WebDriver BiDi listening on ws://127.0.0.1:61185
+Read port: 61192
+1680290270319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileyOYFWh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61185/devtools/browser/5d21c5c1-32a4-49e6-94b2-b29092495f46
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
