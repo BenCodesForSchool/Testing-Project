@@ -30,20 +30,19 @@ def step_impl(context):
 #This makes our test case fail. Tyler told me to do this to demonstrate that my program reports correctly. 
 @when("the user attempts to log in with invalid credentials")
 def step_impl(context):
-    try:
-        context.logger.info(f"Starting step: the user attempts to log in with invalid credentials")
-        start_time = datetime.now()
-        login_page = LoginPage(context.driver)
-        login_page.login_with_invalid_creds("invalid_email@example.com", "invalid_password")
-        end_time = datetime.now()
-        elapsed_time = end_time - start_time
-        context.logger.infor(f"Completed step: the user attempts to log in with invalid credentials")
-    except Exception as e:
-        context.logger.error(f"Error in step: the user attempts to log in with invalid credentials")
-        raise e
+    
+    context.logger.info(f"Starting step: the user attempts to log in with invalid credentials")
+    start_time = datetime.now()
+    login_page = LoginPage(context.driver)
+    login_page.login("invalid_email@example.com", "invalid_password")
+    end_time = datetime.now()
+    elapsed_time = end_time - start_time
+    assert context.driver.current_url != login_page.LOGIN_PAGE_URL, "Expected to be redirected to the home page, but am stuck on the Login page"
+    context.logger.info(f"Completed step: the user attempts to log in with invalid credentials in {elapsed_time.total_seconds()} seconds")
+    
 #Oops this isn't reached! But that's okay
 @then("the login should fail")
 def step_impl(context):
     login_page = LoginPage(context.driver)
 
-    assert login_page.get_current_url() == login_page.LOGIN_PAGE_URL, "Expected to stay on the login page, but was redirected to another page"
+    assert context.driver.current_url == login_page.LOGIN_PAGE_URL, "Expected to stay on the login page, but was redirected to another page"
