@@ -19,11 +19,7 @@ def step_impl(context):
     context.verify_account_url = "https://automationexercise.com/api/getUserDetailByEmail"
     context.update_account_url = "https://automationexercise.com/api/updateAccount"
     context.delete_account_url = "https://automationexercise.com/api/deleteAccount"
-
-
-@when("the user uses the API to create an account")
-def step_impl(context):
-    params = {
+    context.params = {
         "name": "John Doe",
         "email": "JohnnyDiesel@example.com",
         "password": "password123",
@@ -42,24 +38,30 @@ def step_impl(context):
         "city": "Los Angeles",
         "mobile_number": "555-1234"
     }
-    context.response = requests.post(context.create_account_url, data=params)
-    context.name = params["name"]
-    context.email = params["email"]
-    context.password = params["password"]
-    context.title = params["title"]
-    context.birth_date = params["birth_date"]
-    context.birth_month = params["birth_month"]
-    context.birth_year = params["birth_year"]
-    context.firstname = params["firstname"]
-    context.lastname = params["lastname"]
-    context.company = params["company"]
-    context.address1 = params["address1"]
-    context.address2 = params["address2"]
-    context.country = params["country"]
-    context.zipcode = params["zipcode"]
-    context.state = params["state"]
-    context.city = params["city"]
-    context.mobile_number = params["mobile_number"]
+    context.name = context.params["name"]
+    context.email = context.params["email"]
+    context.password = context.params["password"]
+    context.title = context.params["title"]
+    context.birth_date = context.params["birth_date"]
+    context.birth_month = context.params["birth_month"]
+    context.birth_year = context.params["birth_year"]
+    context.firstname = context.params["firstname"]
+    context.lastname = context.params["lastname"]
+    context.company = context.params["company"]
+    context.address1 = context.params["address1"]
+    context.address2 = context.params["address2"]
+    context.country = context.params["country"]
+    context.zipcode = context.params["zipcode"]
+    context.state = context.params["state"]
+    context.city = context.params["city"]
+    context.mobile_number = context.params["mobile_number"]
+
+
+@when("the user uses the API to create an account")
+def step_impl(context):
+    
+    context.response = requests.post(context.create_account_url, data=context.params)
+    
 
 
 
@@ -94,8 +96,16 @@ def step_impl(context):
 def step_impl(context):
     accountDetails = requests.get(context.verify_account_url, params=context.email)
     assert accountDetails.status_code == 200
-    assert accountDetails.json()["address1"] == context.new_address1
-    assert accountDetails.json()["address2"] == context.new_address2
+    account_details = accountDetails.json()
+    for key  in account_details:
+        if hasattr(context, key):
+            if key == "address1":
+                assert account_details[key] == context.new_address1
+            elif key == "address2":
+                assert account_details[key] == context.new_address2
+            else:
+                print(account_details[key])
+                assert account_details[key] == getattr(context, key)
 
 @when("the user attempts to delete the account")
 def step_impl(context):
@@ -105,8 +115,10 @@ def step_impl(context):
     }
     deleteSingle = requests.delete(context.delete_account_url, data=deletionParams)
     assert deleteSingle.status_code == 200
+
 @then("the account should be deleted")
 def step_impl(context):
-    accountDetails = requests.get(context.verify_account_url, params={"email": context.email})
-    assert accountDetails.status_code == 404
+    findOutIfDeleted = requests.get(context.verify_account_url, params={"email": context.email})
+    print(findOutIfDeleted.content)
+    assert findOutIfDeleted.content == b'{"responseCode": 404, "message": "Account not found with this email, try another email!"}'
 
