@@ -1,0 +1,86 @@
+b'{"responseCode": 400, "message": "Email already exists!"}'
+Account details = 
+b'{"responseCode": 200, "user": {"id": 72891, "name": "John Doe", "email": "JohnnyDiesel@example.com", "title": "Mr", "birth_day": "01", "birth_month": "01", "birth_year": "2000", "first_name": "John", "last_name": "Doe", "company": "Example Company", "address1": "123 Main St.", "address2": "Apt. 456", "country": "USA", "state": "CA", "city": "Los Angeles", "zipcode": "12345"}}'
+b'{"responseCode": 200, "message": "User exists!"}'
+b'{"responseCode": 200, "message": "User updated!"}'
+Account details after update = 
+b'{"responseCode": 200, "user": {"id": 72891, "name": "John Doe", "email": "JohnnyDiesel@example.com", "title": "Mr", "birth_day": "01", "birth_month": "01", "birth_year": "2000", "first_name": "John", "last_name": "Doe", "company": "Example Company", "address1": "1 Sheppard Avenue West", "address2": "Unit 1000000000000000", "country": "USA", "state": "CA", "city": "Los Angeles", "zipcode": "12345"}}'
+b'{"responseCode": 200, "message": "Account deleted!"}'
+Account creation
+b'{"responseCode": 201, "message": "User created!"}'
+b'{"responseCode": 200, "user": {"id": 5911, "name": "user", "email": "email", "title": "Mr", "birth_day": "13/10/97", "birth_month": "10", "birth_year": "1997", "first_name": "Fran", "last_name": "Saez", "company": "Everis", "address1": "alameda", "address2": "de la iglesia", "country": "Espa\\u00f1a", "state": "Albacete", "city": "Hellin", "zipcode": "02409"}}'
+Account creation
+b'{"responseCode": 201, "message": "User created!"}'
+b'{"responseCode": 200, "user": {"id": 5911, "name": "user", "email": "email", "title": "Mr", "birth_day": "13/10/97", "birth_month": "10", "birth_year": "1997", "first_name": "Fran", "last_name": "Saez", "company": "Everis", "address1": "alameda", "address2": "de la iglesia", "country": "Espa\\u00f1a", "state": "Albacete", "city": "Hellin", "zipcode": "02409"}}'
+Account creation
+b'{"responseCode": 201, "message": "User created!"}'
+b'{"responseCode": 200, "user": {"id": 5911, "name": "user", "email": "email", "title": "Mr", "birth_day": "13/10/97", "birth_month": "10", "birth_year": "1997", "first_name": "Fran", "last_name": "Saez", "company": "Everis", "address1": "alameda", "address2": "de la iglesia", "country": "Espa\\u00f1a", "state": "Albacete", "city": "Hellin", "zipcode": "02409"}}'
+Account creation
+b'{"responseCode": 201, "message": "User created!"}'
+b'{"responseCode": 200, "user": {"id": 5911, "name": "user", "email": "email", "title": "Mr", "birth_day": "13/10/97", "birth_month": "10", "birth_year": "1997", "first_name": "Fran", "last_name": "Saez", "company": "Everis", "address1": "alameda", "address2": "de la iglesia", "country": "Espa\\u00f1a", "state": "Albacete", "city": "Hellin", "zipcode": "02409"}}'
+Account creation
+b'{"responseCode": 201, "message": "User created!"}'
+b'{"responseCode": 200, "user": {"id": 5911, "name": "user", "email": "email", "title": "Mr", "birth_day": "13/10/97", "birth_month": "10", "birth_year": "1997", "first_name": "Fran", "last_name": "Saez", "company": "Everis", "address1": "alameda", "address2": "de la iglesia", "country": "Espa\\u00f1a", "state": "Albacete", "city": "Hellin", "zipcode": "02409"}}'
+deleting
+b'{"responseCode": 200, "message": "Account deleted!"}'
+deleting
+b'{"responseCode": 200, "message": "Account deleted!"}'
+deleting
+b'{"responseCode": 200, "message": "Account deleted!"}'
+deleting
+b'{"responseCode": 200, "message": "Account deleted!"}'
+deleting
+b'{"responseCode": 200, "message": "Account deleted!"}'
+Current working directory: D:\Testing-Project
+Feature: API login, account verification, account deletion functionality # features/task2.feature:1
+
+  Background:   # features/task2.feature:3
+
+  Scenario: Single account creation, verification                                      # features/task2.feature:6
+    Given the API endpoints for account creation, updating, verification, and deletion # steps/steps2.py:16
+    When the user uses the API to create an account                                    # steps/steps2.py:24
+    Then the user should be able to use the API to verify account details              # steps/steps2.py:67
+
+  Scenario: Account address change                                                     # features/task2.feature:10
+    Given the API endpoints for account creation, updating, verification, and deletion # steps/steps2.py:16
+    When the user attempts to change the address on the account                        # steps/steps2.py:81
+      Traceback (most recent call last):
+        File "C:\Python311\Lib\site-packages\behave\model.py", line 1329, in run
+          match.run(runner.context)
+        File "C:\Python311\Lib\site-packages\behave\matchers.py", line 98, in run
+          self.func(context, *args, **kwargs)
+        File "steps\steps2.py", line 86, in step_impl
+          "email": context.email,
+                   ^^^^^^^^^^^^^
+        File "C:\Python311\Lib\site-packages\behave\runner.py", line 321, in __getattr__
+          raise AttributeError(msg)
+      AttributeError: 'Context' object has no attribute 'email'
+
+    Then the address should change on the account                                      # None
+
+  Scenario: Single account deletion                                                    # features/task2.feature:14
+    Given the API endpoints for account creation, updating, verification, and deletion # steps/steps2.py:16
+    When the user attempts to delete the account                                       # steps/steps2.py:101
+      Traceback (most recent call last):
+        File "C:\Python311\Lib\site-packages\behave\model.py", line 1329, in run
+          match.run(runner.context)
+        File "C:\Python311\Lib\site-packages\behave\matchers.py", line 98, in run
+          self.func(context, *args, **kwargs)
+        File "steps\steps2.py", line 104, in step_impl
+          "email": context.email,
+                   ^^^^^^^^^^^^^
+        File "C:\Python311\Lib\site-packages\behave\runner.py", line 321, in __getattr__
+          raise AttributeError(msg)
+      AttributeError: 'Context' object has no attribute 'email'
+
+    Then the account should be deleted                                                 # None
+
+
+Failing scenarios:
+  features/task2.feature:10  Account address change
+  features/task2.feature:14  Single account deletion
+
+0 features passed, 1 failed, 0 skipped
+1 scenario passed, 2 failed, 0 skipped
+5 steps passed, 2 failed, 2 skipped, 0 undefined
+Took 0m0.782s

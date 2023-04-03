@@ -95,7 +95,7 @@ print(deleteSingle.content)
 
 #CREATING MULTIPLE ACCOUNTS
 
-with open('users.csv', newline='') as csvfile:
+with open(r'D:/Testing-Project/steps/users.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
 
     # Loop through each row
@@ -111,7 +111,7 @@ with open('users.csv', newline='') as csvfile:
         accountDetails = requests.get("https://automationexercise.com/api/getUserDetailByEmail", params=userEmail)
         print(accountDetails.content)
 
-with open('users.csv') as csvfile:
+with open(r'D:/Testing-Project/steps/users.csv') as csvfile:
     reader = csv.DictReader(csvfile)
 
     # Loop through each row in the CSV file

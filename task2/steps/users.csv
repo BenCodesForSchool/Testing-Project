@@ -1,0 +1,6 @@
+name,email,password,title,birth_date,birth_month,birth_year,firstname,lastname,company,address1,address2,country,zipcode,state,city,mobile_number
+John Doe,bigjohnnyd@example.com,password1234,Mr,01,01,1990,John,Doe,Example Company,123 Main St.,Apt. 456,USA,12345,CA,Los Angeles,555-1234
+Jane Smith,janesmith1@example.com,password5678,Mrs,02,02,1995,Jane,Smith,Acme Inc.,456 Park Ave.,Suite 789,USA,23456,NY,New York,555-5678
+Bob Johnson,bobjohnson1@example.com,pass1234,Mr,03,03,2000,Bob,Johnson,Johnson Enterprises,789 Elm St.,,USA,34567,FL,Miami,555-9012
+Mary Brown,marybrown1@example.com,pwd5678,Miss,04,04,2005,Mary,Brown,Brown Inc.,901 Pine St.,,USA,45678,TX,Dallas,555-3456
+Alex Garcia,alexgarcia1@example.com,12345678,Dr,05,05,2010,Alex,Garcia,Garcia & Sons,234 Main St.,Apt. 567,USA,56789,CA,San Francisco,555-6789
