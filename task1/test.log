@@ -174,3 +174,39 @@ onPacket@chrome://remote/content/marionette/server.sys.mjs:250:9
 _onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
 
 Step 'the user navigates to the shopping website' took 0.195732 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.171152 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 2.725291 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.850185 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.791328 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.210534 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.470195 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.160786 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.039998 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.291131 seconds to execute
+Starting step: 'downloads the invoice'
+Error in step: 'downloads the invoice' - Message: Unable to locate element: .//a[@href="/login"]
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+Step 'downloads the invoice' took 5.225067 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Error occurred in step: the user navigates to the shopping website. Error message: Message: Unable to locate element: .//a[@href="/login"]
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+Step 'the user navigates to the shopping website' took 1.510836 seconds to execute

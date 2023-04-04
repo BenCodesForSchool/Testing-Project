@@ -143,3 +143,24 @@ JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: 
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1680628870925	Marionette	INFO	Stopped listening on port 57351
 Dynamically enable window occlusion 1
+1680630116916	geckodriver	INFO	Listening on 127.0.0.1:57681
+1680630119944	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57682" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile4igmyO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680630120164	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680630120167	Marionette	INFO	Listening on port 57689
+WebDriver BiDi listening on ws://127.0.0.1:57682
+Read port: 57689
+1680630120341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile4igmyO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57682/devtools/browser/2fa19a20-2d51-4817-ba32-6accfd970c86
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680630140708	Marionette	INFO	Stopped listening on port 57689
+Dynamically enable window occlusion 1
