@@ -164,3 +164,112 @@ JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: 
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1680630140708	Marionette	INFO	Stopped listening on port 57689
 Dynamically enable window occlusion 1
+1680633914637	geckodriver	INFO	Listening on 127.0.0.1:58219
+1680633917674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58220" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileha2WbC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680633917887	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680633917890	Marionette	INFO	Listening on port 58227
+WebDriver BiDi listening on ws://127.0.0.1:58220
+Read port: 58227
+1680633918069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileha2WbC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58220/devtools/browser/4753abc9-8481-4a0e-8395-22d2dc3b8045
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1680634018678	Marionette	INFO	Stopped listening on port 58221680634019458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58313" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofiletHoz3e"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680634019682	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680634019685	Marionette	INFO	Listening on port 58320
+WebDriver BiDi listening on ws://127.0.0.1:58313
+Read port: 58320
+1680634019904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofiletHoz3e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58313/devtools/browser/6bea380a-097a-4ac1-a755-29b99dc69b85
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1680634240341	Marionette	INFO	Stopped listening on port 58320
+Dynamically enable window occlusion 1
+1680634540969	geckodriver	INFO	Listening on 127.0.0.1:58430
+1680634544008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileA80HQO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680634544229	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680634544232	Marionette	INFO	Listening on port 58438
+WebDriver BiDi listening on ws://127.0.0.1:58431
+Read port: 58438
+1680634544412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileA80HQO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58431/devtools/browser/17aed2f0-a412-41c2-b4f1-6558d2b520fb
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+1680634565901	Marionette	INFO	Stopped listening on port 58438
+Dynamically enable window occlusion 1
+1680636676071	geckodriver	INFO	Listening on 127.0.0.1:58862
+1680636679091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileOAE9dc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680636679306	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680636679309	Marionette	INFO	Listening on port 58870
+WebDriver BiDi listening on ws://127.0.0.1:58863
+Read port: 58870
+1680636679510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileOAE9dc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58863/devtools/browser/3bab6814-7f49-40dc-bc7f-4bbbf683e9ae
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+1680636707122	Marionette	INFO	Stopped listening on port 58870
+Dynamically enable window occlusion 1
+1680637235071	geckodriver	INFO	Listening on 127.0.0.1:58986
+1680637238115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7Utwhr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680637238329	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680637238333	Marionette	INFO	Listening on port 58994
+WebDriver BiDi listening on ws://127.0.0.1:58987
+Read port: 58994
+1680637238544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7Utwhr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58987/devtools/browser/b67e9078-334e-4394-9f12-ab5817aa7951
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+1680637295615	Marionette	INFO	Stopped listening on port 58994
+Dynamically enable window occlusion 1

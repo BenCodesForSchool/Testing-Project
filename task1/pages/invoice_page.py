@@ -7,7 +7,7 @@ class InvoicePage:
     #Finding the button to download the invoice
     INVOICE_BUTTON = (By.XPATH, "//a[@class='btn btn-default check_out']")
     #Including the logout button so I can run my second test case. Otherwise the program doesn't need to log in for the second test case.
-    LOGOUT_BUTTON = (By.XPATH, './/a[@href="/login"]')
+    LOGOUT_BUTTON = (By.XPATH, './/a[@href="/logout"]')
     def __init__(self, driver):
         self.driver = driver
     #Clicking the button that downloads the invoice
