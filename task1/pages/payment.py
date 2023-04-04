@@ -7,7 +7,7 @@ class Payment:
     CVC = (By.XPATH, "//input[@name='cvc']")
     EXPIRATION_MONTH = (By.XPATH, "//input[@name='expiry_month']")
     EXPIRATION_YEAR = (By.XPATH, "//input[@name='expiry_year']")
-    CONFIRM_PAYMENT_BUTTON = (By.XPATH, '//div[@class="form-row"]//button[@id="submit"]')
+    CONFIRM_PAYMENT_BUTTON = (By.XPATH, './/button[@id="submit"]')
 
     def __init__(self, driver):
         self.driver = driver

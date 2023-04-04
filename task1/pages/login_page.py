@@ -6,7 +6,7 @@ class LoginPage:
     EMAIL_INPUT = (By.XPATH, "//*[@data-qa='login-email']")
     PASSWORD_INPUT = (By.XPATH, '//*[@data-qa="login-password"]')
     LOGIN_BUTTON = (By.XPATH, '//*[@data-qa="login-button"]')
-    PRODUCTS_LINK =prod_link = (By.XPATH, "//div[@class='shop-menu pull-right']//a[@href='/products']")
+    PRODUCTS_LINK =prod_link = (By.XPATH, ".//a[@href='/products']")
     PESKY_IFRAME = (By.XPATH, "//iframe[contains(@name, 'aswift') and contains(@style, 'visibility: visible')]")
     DISMISS_BUTTON = (By.XPATH, "//div[@id='dismiss-button']")
     AD_IFRAME = (By.ID, "ad_iframe")

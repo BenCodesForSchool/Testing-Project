@@ -1,77 +1,165 @@
+Starting step: 'the user navigates to the shopping website'
 Starting step: the user navigates to the shopping website
-Error occurred in step: the user navigates to the shopping website. Error message: module 'datetime' has no attribute 'now'
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.107728 seconds
+Completed step: the user navigates to the shopping website in 2.155017 seconds
+Step 'the user navigates to the shopping website' took 2.156016 seconds to execute
+Starting step: 'the user logs in with valid credentials'
 Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.551844 seconds
+Completed step: the user logs in with valid credentials in 2.343462 seconds
+Step 'the user logs in with valid credentials' took 2.344461 seconds to execute
+Starting step: 'searches for a product'
 Starting step: searches for a product
-Completed step: searches for a product in 0.73452 seconds
+Completed step: searches for a product in 0.683839 seconds
+Step 'searches for a product' took 0.683839 seconds to execute
+Starting step: 'selects some products to add to the cart'
 Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.606494 seconds
+Completed step: selects some products to add to the cart in 1.654969 seconds
+Step 'selects some products to add to the cart' took 1.655969 seconds to execute
+Starting step: 'deletes one product from the cart'
 Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.208973 seconds
+Completed step: deletes one product from the cart in 0.212155 seconds
+Step 'deletes one product from the cart' took 0.212155 seconds to execute
+Starting step: 'proceeds to checkout'
 Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 1.012007 seconds
+Completed step: proceeds to checkout in 0.893419 seconds
+Step 'proceeds to checkout' took 0.89442 seconds to execute
+Starting step: 'confirms address and reviews order'
 Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.153482 seconds
+Completed step: confirms address and reviews order in 0.160499 seconds
+Step 'confirms address and reviews order' took 0.160499 seconds to execute
+Starting step: 'enters payment information'
 Starting step: enters payment information
-Completed step: enters payment information in 0.03785 seconds
+Completed step: enters payment information in 0.037012 seconds
+Step 'enters payment information' took 0.037012 seconds to execute
+Starting step: 'confirms the payment'
 Starting step: confirms the payment
-Completed step: confirms the payment in 1.276629 seconds
+Completed step: confirms the payment in 1.278281 seconds
+Step 'confirms the payment' took 1.278705 seconds to execute
+Starting step: 'downloads the invoice'
 Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.213596 seconds
+Completed step: downloading the invoice in 5.880341 seconds
+Step 'downloads the invoice' took 5.88134 seconds to execute
+Starting step: 'the invoice file should be downloaded'
 Starting step: invoice file should be downloaded
 Completed step: invoice file should be downloaded in 0.0 seconds
+Step 'the invoice file should be downloaded' took 0.0 seconds to execute
+Starting step: 'the user navigates to the shopping website'
 Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.017315 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.015868 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.748048 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.227036 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.209036 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.327908 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.158123 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.039001 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.319001 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.222066 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.959995 seconds
-Starting step: the user logs in with valid credentials
-Error in step: the user logs in with valid credentials - 'WebElement' object has no attribute 'exists'
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 6.083946 seconds
-Starting step: the user logs in with valid credentials
-Error in step: the user logs in with valid credentials - 'WebElement' object has no attribute 'isDisplayed'
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.363275 seconds
-Starting step: the user logs in with valid credentials
-Error in step: the user logs in with valid credentials - Message: Unable to locate element: //div[@id='dismiss-button']
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.345176 seconds
-Starting step: the user logs in with valid credentials
-Error in step: the user logs in with valid credentials - selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.834876 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.988689 seconds
-Starting step: searches for a product
-Error in step: searches for a product - Message: Browsing context has been discarded
+Completed step: the user navigates to the shopping website in 1.793625 seconds
+Step 'the user navigates to the shopping website' took 1.793625 seconds to execute
+Starting step: 'the user attempts to log in with invalid credentials'
+Starting step: the user attempts to log in with invalid credentials
+Step 'the user attempts to log in with invalid credentials' took 0.186705 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Error occurred in step: the user navigates to the shopping website. Error message: WebDriver.get() takes 2 positional arguments but 31 were given
+Step 'the user navigates to the shopping website' took 0.000998 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Error occurred in step: the user navigates to the shopping website. Error message: WebDriver.get() takes 2 positional arguments but 31 were given
+Step 'the user navigates to the shopping website' took 0.000999 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.101052 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 2.120695 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 1.042999 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.204217 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.213403 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.459847 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.172299 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.051997 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.291934 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.881547 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.0 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 1.843053 seconds to execute
+Starting step: 'the user attempts to log in with invalid credentials'
+Starting step: the user attempts to log in with invalid credentials
+Step 'the user attempts to log in with invalid credentials' took 0.189578 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.117652 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 1.788166 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.813885 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.152316 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.21051 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.261418 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.158209 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.043001 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.30901 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.875755 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.0 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 1.662317 seconds to execute
+Starting step: 'the user attempts to log in with invalid credentials'
+Starting step: the user attempts to log in with invalid credentials
+Step 'the user attempts to log in with invalid credentials' took 0.184892 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.194523 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 2.331146 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.737298 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.221004 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.218949 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.519883 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.157512 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.044 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.286654 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.878582 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.001 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 1.513971 seconds to execute
+Starting step: 'the user attempts to log in with invalid credentials'
+Starting step: the user attempts to log in with invalid credentials
+Step 'the user attempts to log in with invalid credentials' took 0.215457 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.560115 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 3.703599 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.969046 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.518703 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.209991 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.473919 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.15536 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.037998 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.276559 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.879902 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.0 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Error occurred in step: the user navigates to the shopping website. Error message: Message: Browsing context has been discarded
 Stacktrace:
 RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
 WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
@@ -85,482 +173,4 @@ onPacket/<@chrome://remote/content/marionette/server.sys.mjs:249:20
 onPacket@chrome://remote/content/marionette/server.sys.mjs:250:9
 _onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
 
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.981184 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 3.181777 seconds
-Starting step: searches for a product
-Error in step: searches for a product - Message: Browsing context has been discarded
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:434:5
-assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
-assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
-GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1480:15
-despatch@chrome://remote/content/marionette/server.sys.mjs:303:40
-execute@chrome://remote/content/marionette/server.sys.mjs:276:16
-onPacket/<@chrome://remote/content/marionette/server.sys.mjs:249:20
-onPacket@chrome://remote/content/marionette/server.sys.mjs:250:9
-_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 9.700042 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 3.33871 seconds
-Starting step: searches for a product
-Error in step: searches for a product - Message: TypeError: browsingContext.currentWindowGlobal is null
-Stacktrace:
-getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:297:29
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.943691 seconds
-Starting step: the user logs in with valid credentials
-Error in step: the user logs in with valid credentials - Message: 
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.094212 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 6.563026 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 1.334201 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: Element <a href="/view_cart"> could not be scrolled into view
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:290:5
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:150:11
-interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
-clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:208:29
-receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:97:31
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.955664 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 5.429548 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 1.284033 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 3.003333 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.21208 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 2.420979 seconds
-Starting step: confirms address and reviews order
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.526205 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 6.644819 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 3.872285 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: Element <a class="btn btn-default add-to-cart"> is not clickable at point (1072,833) because another element <iframe id="aswift_5" name="aswift_5" src="https://googleads.g.doubleclick.net/pagead/html/r20230329/r20110914/zrt_lookup.html?fsb=1#RS-0-&adk=1812271801&client=ca-pub-1677597403311019&fa=1&ifi=6&uci=a!6&btvi=5&xpc=wJZeHJ9UKc&p=https%3A//automationexercise.com"> obscures it
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:279:5
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
-interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
-clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:208:29
-receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:97:31
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.986071 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 5.65233 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 1.248538 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: Unable to locate element: //div[@class='shop-menu pull-right']//a[@href='/viewcart']
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.813339 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 6.37668 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 1.036097 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: Unable to locate element: //div[@class='shop-menu pull-right']//a[@href='/viewcart']
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.96484 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 7.243727 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 4.179905 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: Element <a class="btn btn-default add-to-cart"> is not clickable at point (785,833) because another element <iframe id="aswift_5" name="aswift_5" src="https://googleads.g.doubleclick.net/pagead/html/r20230329/r20110914/zrt_lookup.html?fsb=1#RS-0-&adk=1812271801&client=ca-pub-1677597403311019&fa=1&ifi=6&uci=a!6&btvi=5&xpc=TwYMmY2Apj&p=https%3A//automationexercise.com"> obscures it
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:279:5
-webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
-interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
-clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:208:29
-receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:97:31
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.500164 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 14.926064 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 4.212856 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: Unable to locate element: //div[@class='grippy-host']/g[@class='down']
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 3.429525 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 4.302836 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 1.051459 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: Unable to locate element: //div[@class='grippy-host']/g[@class='down']
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 6.356458 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 7.453021 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 13.351195 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - name 'driver' is not defined
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.356472 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 5.630729 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 4.11404 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - presence_of_element_located() takes 1 positional argument but 2 were given
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.461293 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 7.11119 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 3.490234 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: 
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 4.679991 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 5.851868 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 3.884457 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: 
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.126114 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 1.975345 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.917167 seconds
-Starting step: selects some products to add to the cart
-Error in step: selects some products to add to the cart - Message: 
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.046486 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.379642 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.915357 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.601429 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.210034 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.477589 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.160221 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.039999 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.28451 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.209645 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.10538 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.301932 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.919483 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.145331 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.215072 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.462166 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.162525 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.066 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.297274 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.211998 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Error occurred in step: the user navigates to the shopping website. Error message: Message: Unable to locate element: //div[@class='shop-menu pull-right']//a[@href='/login']
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.589184 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 1.917676 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.826029 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.358273 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.214493 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.633493 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.160034 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.037002 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.275062 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.21226 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Error occurred in step: the user navigates to the shopping website. Error message: Message: Unable to locate element: //div[@class='shop-menu pull-right']//a[@href='/login']
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
-element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
-
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.34945 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.895715 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.873356 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.69887 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.208882 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.475804 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.171142 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.043 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.291953 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.87325 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 1.641609 seconds
-Starting step: the user attempts to log in with invalid credentials
-Error in step: the user attempts to log in with invalid credentials
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.162295 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 1.871863 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.637566 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.282071 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.209182 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.46815 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.161979 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.049518 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.272409 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.88373 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 1.464658 seconds
-Starting step: the user attempts to log in with invalid credentials
-Error in step: the user attempts to log in with invalid credentials
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.051147 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.363409 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.923539 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.532794 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.209571 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.901213 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.168436 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.044333 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.282833 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.858621 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 1.922721 seconds
-Starting step: the user attempts to log in with invalid credentials
-Completed step: the user attempts to log in with invalid credentials
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.18286 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.089848 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.924897 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.345165 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.208577 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.497135 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.163959 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.033001 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.293532 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.882759 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 1.56232 seconds
-Starting step: the user attempts to log in with invalid credentials
-Completed step: the user attempts to log in with invalid credentials
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.081372 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.052597 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.793858 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.145579 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.212261 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.464865 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.158246 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.038001 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.273537 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.881762 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 1.813216 seconds
-Starting step: the user attempts to log in with invalid credentials
-Completed step: the user attempts to log in with invalid credentials
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.248752 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.161206 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.985482 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.149062 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.210899 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.628617 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.155259 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.043131 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.280071 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.882413 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.001 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 1.578985 seconds
-Starting step: the user attempts to log in with invalid credentials
-Error in step: the user attempts to log in with invalid credentials
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 2.139111 seconds
-Starting step: the user logs in with valid credentials
-Completed step: the user logs in with valid credentials in 2.416668 seconds
-Starting step: searches for a product
-Completed step: searches for a product in 0.870467 seconds
-Starting step: selects some products to add to the cart
-Completed step: selects some products to add to the cart in 1.159033 seconds
-Starting step: deletes one product from the cart
-Completed step: deletes one product from the cart in 0.211496 seconds
-Starting step: proceeds to checkout
-Completed step: proceeds to checkout in 0.459099 seconds
-Starting step: confirms address and reviews order
-Completed step: confirms address and reviews order in 0.164516 seconds
-Starting step: enters payment information
-Completed step: enters payment information in 0.039999 seconds
-Starting step: confirms the payment
-Completed step: confirms the payment in 1.279372 seconds
-Starting step: downloading the invoice
-Completed step: downloading the invoice in 5.882079 seconds
-Starting step: invoice file should be downloaded
-Completed step: invoice file should be downloaded in 0.0 seconds
-Starting step: the user navigates to the shopping website
-Completed step: the user navigates to the shopping website in 1.937487 seconds
-Starting step: the user attempts to log in with invalid credentials
+Step 'the user navigates to the shopping website' took 0.195732 seconds to execute

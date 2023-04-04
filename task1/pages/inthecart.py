@@ -4,7 +4,7 @@ import random
 class InTheCart:
     #Getting the delete and checkout buttons
     DELETE_BUTTONS = (By.CLASS_NAME, "cart_quantity_delete")
-    CHECKOUT_BUTTON = (By.XPATH, '//div[@class="col-sm-6"]/descendant::a')
+    CHECKOUT_BUTTON = (By.XPATH, '//a[@class="btn btn-default check_out"]')
 
     def __init__(self, driver):
         self.driver = driver

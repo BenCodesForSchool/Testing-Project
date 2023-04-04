@@ -9,8 +9,10 @@ class ProductSelection:
     SHIRTS = (By.XPATH, "//div[@class='productinfo text-center']//a[contains(text(), 'Add to cart')]")
     #Finding the button that allows a user to continue shopping after having added an item to the cart
     CONTINUE_SHOPPING_BUTTON = (By.XPATH, "//div[@class='modal-footer']/descendant::button")
-    #Finding the button that allows a user to view the cart after having added an item to the cart
+    #Finding the button that allows a user to view the cart after having added an item to the cart. Keeping a specific xpath for this because there is 
+    #Another view cart button that can be selected with just //a[@href='/view_cart']
     VIEWCART = (By.XPATH, "//div[@class='shop-menu pull-right']//a[@href='/view_cart']")
+    #This is an ad that I gave up on trying to get rid of. If you stop using the adblocker, this thing will make your program not work like 4/6 of the time.
     BOTTOM_AD = (By.XPATH, "//div[@class='grippy-host']/g[@class='down']")
 
     def __init__(self, driver):

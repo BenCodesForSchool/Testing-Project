@@ -5,9 +5,9 @@ from selenium.webdriver.common.by import By
 
 class InvoicePage:
     #Finding the button to download the invoice
-    INVOICE_BUTTON = (By.XPATH, "//div[@class='row']//a[@class='btn btn-default check_out']")
+    INVOICE_BUTTON = (By.XPATH, "//a[@class='btn btn-default check_out']")
     #Including the logout button so I can run my second test case. Otherwise the program doesn't need to log in for the second test case.
-    LOGOUT_BUTTON = (By.XPATH, "//div[@class='shop-menu pull-right']//a[@href='/logout']")
+    LOGOUT_BUTTON = (By.XPATH, './/a[@href="/login"]')
     def __init__(self, driver):
         self.driver = driver
     #Clicking the button that downloads the invoice

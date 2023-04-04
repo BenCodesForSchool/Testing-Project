@@ -76,7 +76,6 @@ def step_impl(context):
     print("fuck you")
     for key  in account_data:
         if hasattr(context, key):
-            print(account_data[key])
             assert account_data[key] == getattr(context, key)
 
 @when("the user attempts to change the address on the account")
@@ -104,7 +103,6 @@ def step_impl(context):
             elif key == "address2":
                 assert account_details[key] == context.new_address2
             else:
-                print(account_details[key])
                 assert account_details[key] == getattr(context, key)
 
 @when("the user attempts to delete the account")
