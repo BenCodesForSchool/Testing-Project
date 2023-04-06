@@ -3,6 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                sh 'docker info'
+                sh 'docker pull python:2-alpine'
                 sh 'python --version'
             }
         }
