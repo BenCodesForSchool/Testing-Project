@@ -354,3 +354,154 @@ Step 'the user navigates to the shopping website' took 3.302938 seconds to execu
 Starting step: 'the user attempts to log in with invalid credentials'
 Starting step: the user attempts to log in with invalid credentials
 Step 'the user attempts to log in with invalid credentials' took 0.199319 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Error occurred in step: the user navigates to the shopping website. Error message: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:434:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1480:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:303:40
+execute@chrome://remote/content/marionette/server.sys.mjs:276:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:249:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:250:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+Step 'the user navigates to the shopping website' took 0.693197 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Error occurred in step: the user navigates to the shopping website. Error message: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:434:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:814:39
+despatch@chrome://remote/content/marionette/server.sys.mjs:303:40
+execute@chrome://remote/content/marionette/server.sys.mjs:276:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:249:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:250:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+Step 'the user navigates to the shopping website' took 0.005 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.063156 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 2.533013 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.78318 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Error in step: selects some products to add to the cart - Message: Failed to decode response from marionette
+
+Step 'selects some products to add to the cart' took 0.149529 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Error occurred in step: the user navigates to the shopping website. Error message: Message: Tried to run command without establishing a connection
+
+Step 'the user navigates to the shopping website' took 0.001001 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.052456 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 1.759662 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.913623 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.289019 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.210983 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.466939 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.163472 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.037 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.287201 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.872635 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.026 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 1.840405 seconds to execute
+Starting step: 'the user attempts to log in with invalid credentials'
+Starting step: the user attempts to log in with invalid credentials
+Step 'the user attempts to log in with invalid credentials' took 0.18801 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.041356 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 3.641422 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 1.056956 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.158267 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.217441 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.465727 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.347359 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.035001 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.291325 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.878059 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.001 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 1.612964 seconds to execute
+Starting step: 'the user attempts to log in with invalid credentials'
+Starting step: the user attempts to log in with invalid credentials
+Step 'the user attempts to log in with invalid credentials' took 0.181984 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.001562 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 2.038318 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.908412 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.678452 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.210058 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.81486 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.165027 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.043553 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.28223 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.865891 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.0 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 1.578963 seconds to execute
+Starting step: 'the user attempts to log in with invalid credentials'
+Starting step: the user attempts to log in with invalid credentials
+Step 'the user attempts to log in with invalid credentials' took 0.185036 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 2.087941 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 3.746649 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.818499 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.600698 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.209951 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.824077 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.151866 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.036999 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.270824 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.856111 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.0 seconds to execute

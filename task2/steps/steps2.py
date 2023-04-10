@@ -73,7 +73,6 @@ def step_impl(context):
     accountDetails = requests.get(context.verify_account_url, params=context.email)
     assert accountDetails.status_code == 200
     account_data = accountDetails.json()
-    print("fuck you")
     for key  in account_data:
         if hasattr(context, key):
             assert account_data[key] == getattr(context, key)
