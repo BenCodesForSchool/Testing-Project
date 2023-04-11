@@ -1,0 +1,19 @@
+name: Behave tests in Docker
+
+on:
+  schedule:
+    - cron: "30 9 * * 2,5"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.9
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run tests
+        working-directory: task1
+        run: python -m behave
