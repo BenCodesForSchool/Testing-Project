@@ -555,3 +555,4 @@ JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: 
 Dynamically enable window occlusion 1
 Shutting down due to socket process crash.
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1681234602108	geckodriver	INFO	Listening on 127.0.0.1:53647
