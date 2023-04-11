@@ -14,7 +14,7 @@ def before_all(context):
     config.read('config.ini')
 
 
-    file_handler = logging.FileHandler(filename='D:\\Testing-Project\\task1\\test.log')
+    file_handler = logging.FileHandler(filename='..\\task1\\test.log')
     file_handler.setLevel(logging.DEBUG)
     
     # Add the file handler to the logger
