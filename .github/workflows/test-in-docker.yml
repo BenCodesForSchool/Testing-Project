@@ -10,15 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: python:3.9
-    steps:
+      steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Install Firefox
-      run: |
+        run: |
         sudo apt-get update && sudo apt-get install -y firefox
         export FIREFOX_PATH=$(which firefox)
-        
+
       - name: Install behave
         run: pip install behave
 
