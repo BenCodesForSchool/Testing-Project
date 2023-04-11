@@ -11,20 +11,20 @@ jobs:
     container:
       image: python:3.9
       steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+        - name: Checkout code
+          uses: actions/checkout@v2
 
-      - name: Install Firefox
-        run: |
-          sudo apt-get update && sudo apt-get install -y firefox
-          export FIREFOX_PATH=$(which firefox)
+        - name: Install Firefox
+          run: |
+            sudo apt-get update && sudo apt-get install -y firefox
+            export FIREFOX_PATH=$(which firefox)
 
-      - name: Install behave
-        run: pip install behave
+        - name: Install behave
+          run: pip install behave
 
-      - name: Install selenium 
-        run: pip install selenium
+        - name: Install selenium 
+          run: pip install selenium
 
-      - name: Run tests
-        working-directory: task1
-        run: python -m behave
+        - name: Run tests
+          working-directory: task1
+          run: python -m behave
