@@ -36,7 +36,9 @@ def before_all(context):
 
 
     # Create the Firefox driver and install the addon
+    print("Got here")
     driver = webdriver.Firefox(service=service, options=options)
+    print("abd ghere")
     driver.install_addon(config['Firefox']['addons_path'], temporary=True)
 
     # Set the driver to the context object
