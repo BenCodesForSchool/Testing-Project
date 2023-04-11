@@ -1,5 +1,4 @@
 import configparser
-import argparse
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 import logging
@@ -7,9 +6,6 @@ import os
 from datetime import datetime
 def before_all(context):
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--firefox-path', required=True, help='Path to Firefox executable')
-    args = parser.parse_args()
 
     # Create a Config object
     config = configparser.ConfigParser()
@@ -17,7 +13,6 @@ def before_all(context):
     # Read the configuration values from config.ini
     config.read('config.ini')
 
-    config.set('Firefox', 'firefox_path', args.firefox_path)
 
     file_handler = logging.FileHandler(filename='D:\\Testing-Project\\task1\\test.log')
     file_handler.setLevel(logging.DEBUG)
@@ -41,9 +36,7 @@ def before_all(context):
 
 
     # Create the Firefox driver and install the addon
-    print("Got here")
     driver = webdriver.Firefox(service=service, options=options)
-    print("abd ghere")
     driver.install_addon(config['Firefox']['addons_path'], temporary=True)
 
     # Set the driver to the context object
