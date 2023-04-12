@@ -30,7 +30,7 @@ jobs:
         run: python -c "import selenium; print(selenium.__version__)"
 
       - name: Print Firefox version
-        run: firefox --version
+        run: /usr/local/lib/python3.9/site-packages/selenium/webdriver/firefox --version
 
       - name: Run tests
         working-directory: task1
