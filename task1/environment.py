@@ -38,6 +38,10 @@ def before_all(context):
 
     # Create the Firefox driver and install the addon
     print("Got here1")
+
+    logging.info(f"Geckodriver path: {config['Firefox']['geckodriver_path']}")
+    logging.info(f"Service args: {service.service_args}")
+    logging.info(f"Service process: {service.process}")
     driver = webdriver.Firefox(service=service, options=options)
     driver.install_addon(config['Firefox']['addons_path'], temporary=True)
 
