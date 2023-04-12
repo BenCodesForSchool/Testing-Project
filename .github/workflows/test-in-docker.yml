@@ -23,16 +23,18 @@ jobs:
       - name: Install Firefox
         run: |
           apt-get update
-          apt-get install -y sudo
-          sudo apt-get update && sudo apt-get install -y firefox
+          apt-get install -y sudo wget
+          sudo apt-get install -y libdbus-glib-1-2 libxt6 libsm6 libxrender1 libfontconfig1 libasound2
+          wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US"
+          sudo tar xjf firefox.tar.bz2 -C /opt/
+          sudo ln -s /opt/firefox/firefox /usr/bin/firefox
           export FIREFOX_PATH=$(which firefox)
-          export PATH=$PATH:/usr/lib/firefox/
 
       - name: Print Selenium version
         run: python -c "import selenium; print(selenium.__version__)"
 
       - name: Print Firefox version
-        run: sudo /usr/local/lib/python3.9/site-packages/selenium/webdriver/firefox --version
+        run: firefox --version
 
       - name: Run tests
         working-directory: task1
