@@ -45,6 +45,9 @@ jobs:
       - name: Print Firefox version
         run: sudo -u myuser firefox --version
 
+      - name: Print Geckodriver version
+        run: /Testing-Project/drivers/geckodriver -- version
+
       - name: Run tests
         working-directory: task1
         run: python -m behave --verbose
