@@ -32,6 +32,7 @@ def before_all(context):
     
         # Create the Firefox driver
     service = Service(executable_path=config['Firefox']['geckodriver_path'], log_path='./geckodriver.log')
+    service.start()
     driver = webdriver.Firefox(service=service, options=options)
     driver.install_addon(config['Firefox']['addons_path'], temporary=True)
     options.binary_location = config['Firefox']['firefox_path']
