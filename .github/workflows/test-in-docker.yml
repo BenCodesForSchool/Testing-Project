@@ -26,8 +26,11 @@ jobs:
           export FIREFOX_PATH=$(which firefox)
           export PATH=$PATH:/usr/lib/firefox/
 
-      - name: Find Firefox Binary 
-        run: find / -name firefox
+      - name: Print Selenium version
+        run: python -c "import selenium; print(selenium.__version__)"
+
+      - name: Print Firefox version
+        run: firefox --version
 
       - name: Run tests
         working-directory: task1
