@@ -40,6 +40,7 @@ def before_all(context):
     print("Got here")
     try:
         driver = webdriver.Firefox(options=options, executable_path=GeckoDriverManager().install())
+        print("0")
         driver.install_addon(config['Firefox']['addons_path'], temporary=True)
     except Exception as e:
         print(f"Error starting Firefox driver: {e}")
