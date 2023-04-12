@@ -30,11 +30,17 @@ jobs:
           sudo ln -s /opt/firefox/firefox /usr/bin/firefox
           export FIREFOX_PATH=$(which firefox)
 
+      - name: Create non-root user
+        run: |
+          sudo useradd -m myuser
+          echo "myuser ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers
+          sudo su myuser
+
       - name: Print Selenium version
         run: python -c "import selenium; print(selenium.__version__)"
 
       - name: Print Firefox version
-        run: firefox --version
+        run: sudo -u myuser firefox --version
 
       - name: Run tests
         working-directory: task1
