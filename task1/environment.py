@@ -37,11 +37,13 @@ def before_all(context):
         print(f"Error starting geckodriver service: {e}")
         raise
 
-    driver = webdriver.Firefox(options=options)
-    driver.install_addon(config['Firefox']['addons_path'], temporary=True)
+    try:
+        driver = webdriver.Firefox(options=options)
+        driver.install_addon(config['Firefox']['addons_path'], temporary=True)
+    except Exception as e:
+        print(f"Error starting Firefox driver: {e}")
+        raise
     options.binary_location = config['Firefox']['firefox_path']
-    driver = webdriver.Firefox(service=service, options=options)
-    driver.install_addon(config['Firefox']['addons_path'], temporary=True)
 
     # Set the driver to the context object
     context.driver = driver
