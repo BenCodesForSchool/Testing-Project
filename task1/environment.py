@@ -28,6 +28,7 @@ def before_all(context):
 
     #Checking to make sure the geckodriver and firefox paths exist
     assert os.path.exists(config['Firefox']['geckodriver_path']), "Geckodriver path does not exist"
+    print("Gothere2")
     service = Service(executable_path=config['Firefox']['geckodriver_path'], service_args=['--log-path=./geckodriver.log'])
 
 
@@ -37,6 +38,7 @@ def before_all(context):
 
 
     # Create the Firefox driver and install the addon
+    print("Got here1")
     driver = webdriver.Firefox(service=service, options=options)
     driver.install_addon(config['Firefox']['addons_path'], temporary=True)
 
