@@ -23,20 +23,19 @@ jobs:
       - name: Install Webdriver Manager
         run: pip install webdriver_manager
 
-      - name: Install geckodriver
-        run: |
-          cd drivers
-          wget https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-linux64.tar.gz
-          tar -xvzf geckodriver-v0.33.0-linux64.tar.gz
-          export PATH=$PATH:$PWD
-
       - name: Where the fuck are we?
         run: |
           cd drivers 
           ls
           cd
 
-
+      - name: Install geckodriver
+        run: |
+          cd drivers
+          wget https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-linux64.tar.gz
+          tar -xvzf geckodriver-v0.33.0-linux64.tar.gz
+          export PATH=$PATH:$PWD
+          
       - name: Install Firefox
         run: |
           apt-get update
