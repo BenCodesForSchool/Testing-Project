@@ -23,6 +23,15 @@ jobs:
       - name: Install Webdriver Manager
         run: pip install webdriver_manager
 
+      - name: Where the fuck are we?
+        run: |
+        ls -l
+        cd Testing-Project
+        ls -l
+        cd drivers 
+        ls -l
+
+
       - name: Install Firefox
         run: |
           apt-get update
