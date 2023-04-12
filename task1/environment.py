@@ -7,37 +7,35 @@ from datetime import datetime
 def before_all(context):
 
 
-    # Create a Config object
-    config = configparser.ConfigParser()
-    
-    # Read the configuration values from config.ini
-    config.read('config.ini')
-
-
     file_handler = logging.FileHandler(filename='..\\task1\\test.log')
     file_handler.setLevel(logging.DEBUG)
-    
+
     # Add the file handler to the logger
     logger = logging.getLogger()
     logger.addHandler(file_handler)
 
     # Create a FirefoxOptions object and set the browser preferences
     options = webdriver.FirefoxOptions()
-    for key, value in config['BrowserPreferences'].items():
-        options.set_preference(key, value)
+    options.set_preference("browser.download.folderList", 2)
+    options.set_preference("browser.download.manager.showWhenStarting", False)
+    options.set_preference("browser.download.dir", "/path/to/download/folder")
+    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream,application/pdf")
 
-    #Checking to make sure the geckodriver and firefox paths exist
-    assert os.path.exists(config['Firefox']['geckodriver_path']), "Geckodriver path does not exist"
-    service = Service(executable_path=config['Firefox']['geckodriver_path'])
-
-    assert os.path.exists(config['Firefox']['firefox_path']), "Firefox path does not exist"
-    options.binary_location = config['Firefox']['firefox_path']
-    
-
+    #Checking to make sure the geckodriver path exists
+    assert os.path.exists('../drivers/geckodriver'), "Geckodriver path does not exist"
+    service = Service(executable_path='/path/to/geckodriver')
 
     # Create the Firefox driver and install the addon
     driver = webdriver.Firefox(service=service, options=options)
-    driver.install_addon(config['Firefox']['addons_path'], temporary=True)
+    driver.install_addon('../uBlock0_1.47.4.firefox.signed.xpi', temporary=True)
+
+    # Set the driver to the context object
+    context.driver = driver
+
+    context.logger = logging.getLogger()
+    context.logger.addHandler(file_handler)
+
+
 
     # Set the driver to the context object
     context.driver = driver
