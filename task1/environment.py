@@ -1,6 +1,6 @@
 import configparser
 from selenium import webdriver
-from webdriver_manager.firefox import GeckoDriverManager
+
 from selenium.webdriver.firefox.service import Service as FirefoxService
 import logging
 import os
@@ -40,9 +40,9 @@ def before_all(context):
     print("Got here")
     options.binary_location = config['Firefox']['firefox_path']
     print("And here")
+
     try:
-        driver = webdriver.Firefox(options=options, executable_path=config['Firefox']['geckodriver_path'])
-        print("0")
+        driver = webdriver.Firefox(options=options, service=service)
         driver.install_addon(config['Firefox']['addons_path'], temporary=True)
     except Exception as e:
         print(f"Error starting Firefox driver: {e}")
