@@ -25,9 +25,6 @@ jobs:
 
       - name: Where the fuck are we?
         run: |
-          ls
-          cd Testing-Project
-          ls
           cd drivers 
           ls
 
@@ -55,7 +52,7 @@ jobs:
         run: sudo -u myuser firefox --version
 
       - name: Print Geckodriver version
-        run: /Testing-Project/drivers/geckodriver -- version
+        run: /drivers/geckodriver -- version
 
       - name: Run tests
         working-directory: task1
