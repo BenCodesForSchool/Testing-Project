@@ -60,7 +60,11 @@ jobs:
         run: sudo -u myuser firefox --version
 
       - name: Print Geckodriver version
-        run: /drivers/geckodriver --version
+        run: |
+        cd drivers
+        ls
+        cd
+        /drivers/geckodriver --version
 
       - name: Run tests
         working-directory: task1
