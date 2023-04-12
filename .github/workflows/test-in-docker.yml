@@ -38,9 +38,6 @@ jobs:
 
       - name: Print Selenium version
         run: python -c "import selenium; print(selenium.__version__)"
-      
-      - name: Print Geckodriver version
-        run: geckodriver --version
 
       - name: Print Firefox version
         run: sudo -u myuser firefox --version

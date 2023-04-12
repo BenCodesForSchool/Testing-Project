@@ -28,11 +28,8 @@ def before_all(context):
 
     #Checking to make sure the geckodriver and firefox paths exist
     assert os.path.exists(config['Firefox']['geckodriver_path']), "Geckodriver path does not exist"
-    service = Service(executable_path=config['Firefox']['geckodriver_path'], args=['--log-path=./geckodriver.log'])
-
-
     assert os.path.exists(config['Firefox']['firefox_path']), "Firefox path does not exist"
-    options.binary_location = config['Firefox']['firefox_path']
+    
     
 
 
@@ -45,11 +42,19 @@ def before_all(context):
     driver = webdriver.Firefox(service=service, options=options)
     driver.install_addon(config['Firefox']['addons_path'], temporary=True)
 
+        # Create the Firefox driver
+    service = Service(executable_path=config['Firefox']['geckodriver_path'], log_path='./geckodriver.log')
+    options.binary_location = config['Firefox']['firefox_path']
+    driver = webdriver.Firefox(service=service, options=options)
+    driver.install_addon(config['Firefox']['addons_path'], temporary=True)
+
     # Set the driver to the context object
     context.driver = driver
     
-    context.logger = logging.getLogger()
+    context.logger = logger
     context.logger.addHandler(file_handler)
+    # Log service arguments
+    logger.info(f"Service arguments: {service.service_args}")
 
 def before_step(context, step):
     step.start_time = datetime.now()
