@@ -24,6 +24,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y firefox
           export FIREFOX_PATH=$(which firefox)
+          export PATH=$PATH:/usr/lib/firefox/
 
       - name: Run tests
         working-directory: task1
