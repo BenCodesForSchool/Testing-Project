@@ -25,11 +25,11 @@ jobs:
 
       - name: Where the fuck are we?
         run: |
-        ls
-        cd Testing-Project
-        ls
-        cd drivers 
-        ls
+          ls
+          cd Testing-Project
+          ls
+          cd drivers 
+          ls
 
 
       - name: Install Firefox
