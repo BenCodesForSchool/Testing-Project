@@ -28,7 +28,8 @@ def before_all(context):
 
     #Checking to make sure the geckodriver and firefox paths exist
     assert os.path.exists(config['Firefox']['geckodriver_path']), "Geckodriver path does not exist"
-    service = Service(executable_path=config['Firefox']['geckodriver_path'])
+    service = Service(executable_path=config['Firefox']['geckodriver_path'], service_args=['--log-path=./geckodriver.log'])
+
 
     assert os.path.exists(config['Firefox']['firefox_path']), "Firefox path does not exist"
     options.binary_location = config['Firefox']['firefox_path']
