@@ -31,8 +31,13 @@ def before_all(context):
     assert os.path.exists(config['Firefox']['firefox_path']), "Firefox path does not exist"
     
         # Create the Firefox driver
-    service = Service(executable_path=config['Firefox']['geckodriver_path'], log_path='./geckodriver.log')
-    service.start()
+    try:
+        service = Service(executable_path=config['Firefox']['geckodriver_path'], log_path='./geckodriver.log')
+        service.start()
+    except Exception as e:
+        print(f"Error starting geckodriver service: {e}")
+        raise
+
     driver = webdriver.Firefox(service=service, options=options)
     driver.install_addon(config['Firefox']['addons_path'], temporary=True)
     options.binary_location = config['Firefox']['firefox_path']
