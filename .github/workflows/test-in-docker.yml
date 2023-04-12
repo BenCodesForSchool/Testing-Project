@@ -26,6 +26,9 @@ jobs:
           export FIREFOX_PATH=$(which firefox)
           export PATH=$PATH:/usr/lib/firefox/
 
+      - name: Find Firefox Binary 
+        run: find / -name firefox
+
       - name: Run tests
         working-directory: task1
         run: python -m behave
