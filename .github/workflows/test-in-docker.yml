@@ -62,7 +62,7 @@ jobs:
       - name: Print Geckodriver version
         run: |
           cd drivers
-          ls
+          ls -l
           cd
           ./drivers/geckodriver --version
 
