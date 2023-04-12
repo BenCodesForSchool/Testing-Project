@@ -64,7 +64,7 @@ jobs:
           cd drivers
           ls
           cd
-          /drivers/geckodriver --version
+          ./drivers/geckodriver --version
 
       - name: Run tests
         working-directory: task1
