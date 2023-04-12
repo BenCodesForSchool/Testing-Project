@@ -1,6 +1,6 @@
 import configparser
 from selenium import webdriver
-from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.service import Service as FirefoxService
 import logging
 import os
 from datetime import datetime
@@ -32,7 +32,7 @@ def before_all(context):
     
         # Create the Firefox driver
     try:
-        service = Service(executable_path=config['Firefox']['geckodriver_path'], log_path='./geckodriver.log')
+        service = FirefoxService(executable_path=config['Firefox']['geckodriver_path'], log_path='./geckodriver.log')
         service.start()
     except Exception as e:
         print(f"Error starting geckodriver service: {e}")
