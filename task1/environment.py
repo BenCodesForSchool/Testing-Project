@@ -29,8 +29,8 @@ def before_all(context):
     options.add_argument("--headless")
 
     #Checking to make sure the geckodriver and firefox paths exist
-    assert os.path.exists(config['Firefox']['geckodriver_path']), "Geckodriver path does not exist"
-    assert os.path.exists(config['Firefox']['firefox_path']), "Firefox path does not exist"
+    assert os.access(config['Firefox']['firefox_path'], os.X_OK), "Firefox binary is not executable"
+    assert os.access(config['Firefox']['geckodriver_path'], os.X_OK), "Geckodriver binary is not executable"
     
         # Create the Firefox driver
     try:
