@@ -79,5 +79,6 @@ jobs:
         working-directory: task1
         run: python -m behave --verbose || true
       
-      - name: Check Geckodriver log for errors
-        run: grep "error" geckodriver.log
+      - name: Enable geckodriver verbose logging
+        run: |
+          echo "MOZ_LOG=debug:5" >> $GITHUB_WORKSPACE/.env
