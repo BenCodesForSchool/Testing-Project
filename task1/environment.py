@@ -26,7 +26,7 @@ def before_all(context):
     options = webdriver.FirefoxOptions()
     for key, value in config['BrowserPreferences'].items():
         options.set_preference(key, value)
-    options.headless = True
+    options.add_argument("--headless")
 
     #Checking to make sure the geckodriver and firefox paths exist
     assert os.path.exists(config['Firefox']['geckodriver_path']), "Geckodriver path does not exist"
