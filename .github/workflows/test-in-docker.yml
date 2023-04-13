@@ -78,7 +78,7 @@ jobs:
 
       - name: View geckodriver.log
         run: |
-        cd
-        grep "unable" geckodriver.log
-        grep "not found" geckodriver.log
+          cd
+          grep "unable" geckodriver.log
+          grep "not found" geckodriver.log
         if: always()
