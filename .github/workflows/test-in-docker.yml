@@ -75,7 +75,7 @@ jobs:
       - name: Run tests
         working-directory: task1
         run: python -m behave --verbose
-        env:
+        env: |
         MOZ_HEADLESS: 1
         DISPLAY: :99
 
