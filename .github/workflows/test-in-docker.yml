@@ -23,7 +23,7 @@ jobs:
       - name: Install Webdriver Manager
         run: pip install webdriver_manager
 
-      - name: Where the fuck are we?
+      - name: Where are we?
         run: |
           ls
           cd drivers 
@@ -37,6 +37,8 @@ jobs:
           tar -xvzf geckodriver-v0.33.0-linux64.tar.gz
           export PATH=$PATH:$PWD
           echo 'export PATH=$PATH:$PWD' >> $HOME/.bashrc
+          cd ..
+
 
       - name: Install Firefox
         run: |
