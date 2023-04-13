@@ -64,8 +64,6 @@ jobs:
         run: |
           sudo -u myuser firefox --version
           which firefox
-          strace firefox 2> firefox.strace
-          grep "No such file or directory" firefox.strace
 
       - name: Print Geckodriver version
         run: |
