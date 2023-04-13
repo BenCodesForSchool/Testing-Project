@@ -79,5 +79,5 @@ jobs:
 
       - name: View geckodriver.log
         run: |
-          grep "unable" geckodriver.log
+          grep -E "ERROR|WARN" geckodriver.log
         if: always()
