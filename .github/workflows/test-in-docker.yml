@@ -76,9 +76,8 @@ jobs:
         working-directory: task1
         run: python -m behave --verbose
 
+
       - name: View geckodriver.log
         run: |
-          cd
-          grep "unable" geckodriver.log
           grep "not found" geckodriver.log
         if: always()
