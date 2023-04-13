@@ -82,3 +82,9 @@ jobs:
       - name: Enable geckodriver verbose logging
         run: |
           echo "MOZ_LOG=debug:5" >> $GITHUB_WORKSPACE/.env
+
+      - name: Upload log file as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: geckodriver-log
+          path: geckodriver.log
