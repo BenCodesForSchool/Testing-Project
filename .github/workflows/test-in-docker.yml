@@ -75,3 +75,10 @@ jobs:
       - name: Run tests
         working-directory: task1
         run: python -m behave --verbose
+        env:
+        MOZ_HEADLESS: 1
+        DISPLAY: :99
+
+      - name: View geckodriver.log
+        run: cat geckodriver.log
+        if: always()
