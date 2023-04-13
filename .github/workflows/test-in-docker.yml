@@ -72,6 +72,8 @@ jobs:
           export PATH=$PATH:$PWD
           ./geckodriver --version
           cd
+          grep "error" geckodriver.log
+
 
       - name: Run tests
         working-directory: task1
