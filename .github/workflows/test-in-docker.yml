@@ -72,9 +72,12 @@ jobs:
           export PATH=$PATH:$PWD
           ./geckodriver --version
           cd
-          grep "error" geckodriver.log
+
 
 
       - name: Run tests
         working-directory: task1
         run: python -m behave --verbose
+      
+      - name: Check Geckodriver log for errors
+        run: grep "error" geckodriver.log
