@@ -23,7 +23,7 @@ def before_all(context):
     logger.addHandler(file_handler)
 
     # Create a FirefoxOptions object and set the browser preferences
-    options = webdriver.FirefoxOptions(profile=webdriver.FirefoxProfile())
+    options = webdriver.FirefoxOptions()
     for key, value in config['BrowserPreferences'].items():
         options.set_preference(key, value)
     options.add_argument("--headless")
