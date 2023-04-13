@@ -64,6 +64,7 @@ jobs:
         run: |
           sudo -u myuser firefox --version
           which firefox
+          ldd $(which firefox)
 
       - name: Print Geckodriver version
         run: |
@@ -76,9 +77,3 @@ jobs:
       - name: Run tests
         working-directory: task1
         run: python -m behave --verbose
-
-
-      - name: View geckodriver.log
-        run: |
-          grep -E "ERROR|WARN" geckodriver.log
-        if: always()
