@@ -27,7 +27,6 @@ jobs:
       - name: Install Chromedriver
         run: |
           cd drivers
-          export CHROME_VERSION=$(google-chrome-stable --version | grep -oP 'Google Chrome \K\w+')
           wget -O chromedriver_linux64.zip "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}"
           unzip chromedriver_linux64.zip
           export PATH=$PATH:$PWD
