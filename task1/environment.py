@@ -28,7 +28,6 @@ def before_all(context):
         options.set_preference(key, value)"""
     options.add_argument("--no-sandbox")
     options.headless = True
-    options.add_argument("--remote-debugging-port=9222")
     options.add_argument("--disable-dev-shm-usage")
 
     #Checking to make sure the geckodriver and firefox paths exist
