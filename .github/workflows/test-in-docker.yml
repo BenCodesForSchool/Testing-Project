@@ -26,7 +26,6 @@ jobs:
       
       - name: Install Chromium
         run: |
-          apt-get update
           apt-get install -y chromium-browser
       
       - name: Print Chromium version
