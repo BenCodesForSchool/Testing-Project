@@ -24,9 +24,12 @@ def before_all(context):
 
     # Create a FirefoxOptions object and set the browser preferences
     options = webdriver.FirefoxOptions()
-    for key, value in config['BrowserPreferences'].items():
-        options.set_preference(key, value)
-    options.add_argument("--headless")
+    """for key, value in config['BrowserPreferences'].items():
+        options.set_preference(key, value)"""
+    options.add_argument("--no-sandbox")
+    options.headless = True
+    options.add_argument("--remote-debugging-port=9222")
+    options.add_argument("--disable-dev-shm-usage")
 
     #Checking to make sure the geckodriver and firefox paths exist
     assert os.access(config['Firefox']['firefox_path'], os.X_OK), "Firefox binary is not executable"
