@@ -24,67 +24,41 @@ jobs:
       - name: Install Webdriver Manager
         run: pip install webdriver_manager
 
-      - name: Where are we?
-        run: |
-          ls
-          cd drivers 
-          ls
-          cd
-
-      - name: Install geckodriver
+      - name: Install Chromedriver
         run: |
           cd drivers
-          wget https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-linux64.tar.gz
-          tar -xvzf geckodriver-v0.33.0-linux64.tar.gz
+          export CHROME_VERSION=$(google-chrome-stable --version | grep -oP 'Google Chrome \K\w+')
+          wget -O chromedriver_linux64.zip "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}"
+          unzip chromedriver_linux64.zip
           export PATH=$PATH:$PWD
-          echo 'export PATH=$PATH:$PWD' >> $HOME/.bashrc
-          cd ..
+          cd..
 
-
-      - name: Install Firefox
+      - name: Install Chromium
         run: |
-          apt-get update
-          apt-get install -y sudo wget
-          sudo apt-get install -y libdbus-glib-1-2 libxt6 libsm6 libxrender1 libfontconfig1 libasound2 libgtk-3-0 libxcb1 libx11-xcb1
-          wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US"
-          sudo tar xjf firefox.tar.bz2 -C /opt/
-          sudo ln -s /opt/firefox/firefox /usr/bin/firefox
-          export FIREFOX_PATH=$(which firefox)
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
 
-      - name: Create non-root user
-        run: |
-          sudo useradd -m myuser
-          echo "myuser ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers
-          sudo su myuser
-
+      
       - name: Print Selenium version
         run: python -c "import selenium; print(selenium.__version__)"
 
-      - name: Print Firefox version
-        run: |
-          sudo -u myuser firefox --version
-          which firefox
-
-      - name: Print Geckodriver version
-        run: |
-          cd drivers
-          ls -l
-          export PATH=$PATH:$PWD
-          ./geckodriver --version
-          cd
+      - name: Print Chromium version
+        run: chromium-browser --version
 
 
+      - name: Print Chromedriver version
+        run: chromedriver --version
 
       - name: Run tests
         working-directory: task1
         run: python -m behave --verbose || true
       
-      - name: Enable geckodriver verbose logging
+      - name: Enable Chromedriver verbose logging
         run: |
-          echo "MOZ_LOG=debug:5" >> $GITHUB_WORKSPACE/.env
+          echo "CHROME_LOG_FILE=chrome.log" >> $GITHUB_WORKSPACE/.env
 
       - name: Upload log file as artifact
         uses: actions/upload-artifact@v2
         with:
-          name: geckodriver-log
-          path: geckodriver.log
+          name: chromedriver-log
+          path: chrome.log
