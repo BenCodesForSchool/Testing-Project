@@ -48,7 +48,13 @@ jobs:
         run: python -c "import selenium; print(selenium.__version__)"
 
       - name: Print Chromedriver version
-        run: chromedriver --version
+        run: |
+          cd drivers
+          ls -l
+          export PATH=$PATH:$PWD
+          ./chromedriver --version
+          cd
+
 
       - name: Run tests
         working-directory: task1
