@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 import random
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import time
 
 #I created this page in order to handle the fact that the page undergoes a significant change when a search is made. 
 class ProductSelection:
@@ -34,6 +35,8 @@ class ProductSelection:
             shirt.click()
             #Counting how many buy buttons have been clicked
             num_shirts += 1
+            #Waiting for 3 seconds so that the "continue shopping" button shows up
+            time.sleep(3)
             #Clicking on the continue shopping button after each shirt is selected
             continue_shopping = self.driver.find_element(*self.CONTINUE_SHOPPING_BUTTON)
             continue_shopping.click()
