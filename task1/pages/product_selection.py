@@ -8,7 +8,7 @@ class ProductSelection:
     #Finding the buy button for all shirts (or any specified product, really) on the page
     SHIRTS = (By.XPATH, "//div[@class='productinfo text-center']//a[contains(text(), 'Add to cart')]")
     #Finding the button that allows a user to continue shopping after having added an item to the cart
-    CONTINUE_SHOPPING_BUTTON = (By.XPATH, "//div[@class='modal-footer']/descendant::button")
+    CONTINUE_SHOPPING_BUTTON = (By.XPATH, "//*[@class='btn btn-success close-modal btn-block']")
     #Finding the button that allows a user to view the cart after having added an item to the cart. Keeping a specific xpath for this because there is 
     #Another view cart button that can be selected with just //a[@href='/view_cart']
     VIEWCART = (By.XPATH, "//div[@class='shop-menu pull-right']//a[@href='/view_cart']")
