@@ -58,7 +58,7 @@ jobs:
 
       - name: Run tests
         working-directory: task1
-        run: python -m behave --verbose || true
+        run: python -m behave --verbose
       
       - name: Enable Chromedriver verbose logging
         run: |
