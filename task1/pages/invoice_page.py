@@ -20,7 +20,7 @@ class InvoicePage:
     
     def assert_invoice_downloaded(self):
         #Specifying the path where the invoice file will be downloaded
-        file_path = os.path.join("D:\\", "C DRIVE STUFF", "Downloads", "invoice.txt")
+        file_path = os.path.join(os.path.expanduser("~"), "Downloads", "invoice.txt")
         #Assert statements that check if the file exists in the path, and if the file is empty
         assert os.path.exists(file_path), f"File {file_path} not found"
         assert os.path.getsize(file_path) > 0, f"File {file_path} is empty"
