@@ -19,8 +19,12 @@ class InvoicePage:
         logout_button.click()
     
     def assert_invoice_downloaded(self):
-        #Specifying the path where the invoice file will be downloaded
-        file_path = os.path.join(os.path.expanduser("~"), "Downloads", "invoice.txt")
+        # Get the current working directory
+        current_dir = os.getcwd()
+        # Specify the filename to be checked
+        filename = "invoice.txt"
+        # Join the current directory and filename
+        file_path = os.path.join(current_dir, filename)
         #Assert statements that check if the file exists in the path, and if the file is empty
         assert os.path.exists(file_path), f"File {file_path} not found"
         assert os.path.getsize(file_path) > 0, f"File {file_path} is empty"
