@@ -28,9 +28,6 @@ jobs:
         run: |
           apt-get update
           apt-get install -y sudo wget
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          dpkg -i google-chrome-stable_current_amd64.deb
-          apt-get install -y -f
           sudo apt install -y chromium-browser
           export CHROMIUM_PATH=$(which chromium-browser)
       
@@ -44,15 +41,9 @@ jobs:
           unzip chromedriver_linux64.zip
           export PATH=$PATH:$PWD
           cd..
-
-
-
-      
+     
       - name: Print Selenium version
         run: python -c "import selenium; print(selenium.__version__)"
-
-
-
 
       - name: Print Chromedriver version
         run: chromedriver --version
