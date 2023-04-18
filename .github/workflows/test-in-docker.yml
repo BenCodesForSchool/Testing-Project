@@ -27,13 +27,12 @@ jobs:
       - name: Install Chromium
         run: |
           apt-get update
-          apt-get install -y wget
+          apt-get install -y sudo wget
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           dpkg -i google-chrome-stable_current_amd64.deb
           apt-get install -y -f
+          sudo apt install -y chromium-browser
           export CHROMIUM_PATH=$(which chromium-browser)
-
-
       
       - name: Print Chromium version
         run: chromium-browser --version
