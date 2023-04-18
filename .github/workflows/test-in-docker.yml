@@ -40,7 +40,7 @@ jobs:
           wget -O chromedriver_linux64.zip "https://chromedriver.storage.googleapis.com/$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip"
           unzip chromedriver_linux64.zip
           export PATH=$PATH:$PWD
-          cd..
+          cd ..
      
       - name: Print Selenium version
         run: python -c "import selenium; print(selenium.__version__)"
