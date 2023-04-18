@@ -32,7 +32,7 @@ jobs:
           export CHROMIUM_PATH=$(which chromium)
       
       - name: Print Chromium version
-        run: chromium-browser --version
+        run: chromium --version
 
       - name: Install Chromedriver
         run: |
