@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "baseUrl": ".",
+    },
+    "types": [
+      "cypress",
+      "cypress-cucumber-preprocessor"
+    ],
+    "include": [
+      "./cypress/**/*.ts"
+, "cypress/plugins/index.js"    ],
+    "exclude": [
+      "./node_modules",
+      "**/*.spec.ts"
+    ]
+  }
+  

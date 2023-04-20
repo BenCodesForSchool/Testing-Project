@@ -1,0 +1,380 @@
+1680532802368	geckodriver	INFO	Listening on 127.0.0.1:51406
+1680532805373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7Ce284"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680532805598	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680532805601	Marionette	INFO	Listening on port 51414
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51407
+Read port: 51414
+1680532805824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7Ce284\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51407/devtools/browser/c17944de-b2ee-4b17-b2d3-3358602a88be
+1680532815557	Marionette	INFO	Stopped listening on port 51414
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680532913495	geckodriver	INFO	Listening on 127.0.0.1:51469
+1680532916524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilemMmxEl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680532916739	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680532916742	Marionette	INFO	Listening on port 51477
+Read port: 51477
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51470
+1680532916811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilemMmxEl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51470/devtools/browser/4cdebef7-9d5c-4787-94f8-dfc21aee2ba7
+1680532923925	Marionette	INFO	Stopped listening on port 51477
+Dynamically enable window occlusion 1
+1680532943699	geckodriver	INFO	Listening on 127.0.0.1:51514
+1680532946734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileffqrhd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680532946973	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680532946976	Marionette	INFO	Listening on port 51523
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51515
+Read port: 51523
+1680532947166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileffqrhd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51515/devtools/browser/e7439525-f9e9-4a7d-99e9-332485ade29e
+1680532958273	Marionette	INFO	Stopped listening on port 51523
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680533303146	geckodriver	INFO	Listening on 127.0.0.1:51645
+1680533306190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilePGroUf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680533306405	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680533306408	Marionette	INFO	Listening on port 51653
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51646
+Read port: 51653
+1680533306583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilePGroUf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51646/devtools/browser/93bd7266-5aa5-4b32-b98d-4942888b8183
+1680533312816	Marionette	INFO	Stopped listening on port 51653
+Dynamically enable window occlusion 1
+1680533458377	geckodriver	INFO	Listening on 127.0.0.1:51732
+1680533461435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileFmRgcd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680533461649	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680533461652	Marionette	INFO	Listening on port 51740
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51733
+Read port: 51740
+1680533461875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileFmRgcd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51733/devtools/browser/d86437bc-3cd7-49d6-affc-289ffb45eb8c
+1680533468870	Marionette	INFO	Stopped listening on port 51740
+Dynamically enable window occlusion 1
+1680533482558	geckodriver	INFO	Listening on 127.0.0.1:51777
+1680533485591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileqqFmyT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680533485806	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680533485809	Marionette	INFO	Listening on port 51786
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51778
+Read port: 51786
+1680533486039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileqqFmyT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51778/devtools/browser/82f43761-6d05-49a0-ab01-f1eef2ac0838
+1680533493329	Marionette	INFO	Stopped listening on port 51786
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680533538986	geckodriver	INFO	Listening on 127.0.0.1:51830
+1680533542038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileP7PKgD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680533542251	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680533542254	Marionette	INFO	Listening on port 51839
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51831
+Read port: 51839
+1680533542442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileP7PKgD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51831/devtools/browser/a19fd709-edcf-41e6-8aec-f365a4d02e1c
+1680533844262	geckodriver	INFO	Listening on 127.0.0.1:51953
+1680533847297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilezvnMqW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680533847516	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680533847518	Marionette	INFO	Listening on port 51962
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:51954
+Read port: 51962
+1680533847734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilezvnMqW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51954/devtools/browser/88caca12-2b51-4131-9bdb-2deb0112fc8a
+1680533943287	geckodriver	INFO	Listening on 127.0.0.1:52034
+1680533946308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileOxpxj5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680533946526	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680533946529	Marionette	INFO	Listening on port 52042
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52035
+Read port: 52042
+1680533946711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileOxpxj5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52035/devtools/browser/1431cf15-2fde-4581-ae54-c8f6b41520e1
+1680533998635	geckodriver	INFO	Listening on 127.0.0.1:52085
+1680534001670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7oqhrs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534001886	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534001889	Marionette	INFO	Listening on port 52094
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52086
+Read port: 52094
+1680534002127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7oqhrs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52086/devtools/browser/b3662224-8975-4ae0-af0e-852ede798e2b
+1680534070150	geckodriver	INFO	Listening on 127.0.0.1:52161
+1680534073203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileoChMuF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534073419	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534073422	Marionette	INFO	Listening on port 52172
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52162
+Read port: 52172
+1680534073605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileoChMuF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52162/devtools/browser/bab11b88-fc60-475b-ab91-27f9492fa0ff
+1680534089143	Marionette	INFO	Stopped listening on port 52172
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680534152745	geckodriver	INFO	Listening on 127.0.0.1:52245
+1680534155792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilenE68UB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534156007	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534156010	Marionette	INFO	Listening on port 52255
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52246
+Read port: 52255
+1680534156191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilenE68UB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52246/devtools/browser/d6fefd6e-26e0-4e4b-a976-181513ee5b28
+1680534167015	Marionette	INFO	Stopped listening on port 52255
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680534180466	geckodriver	INFO	Listening on 127.0.0.1:52305
+1680534183497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile2qA09b"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534183713	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534183716	Marionette	INFO	Listening on port 52314
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52306
+Read port: 52314
+1680534183909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile2qA09b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52306/devtools/browser/320f38f4-4bef-4d53-86cc-83eabe8620a0
+1680534190426	Marionette	INFO	Stopped listening on port 52314
+Dynamically enable window occlusion 1
+1680534234783	geckodriver	INFO	Listening on 127.0.0.1:52368
+1680534237803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileNygI1M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534238025	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534238029	Marionette	INFO	Listening on port 52382
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52369
+Read port: 52382
+1680534238219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileNygI1M\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52369/devtools/browser/8f0fb7d1-e533-45d9-b6d4-8cdfccc0449f
+1680534368809	geckodriver	INFO	Listening on 127.0.0.1:52475
+1680534371859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofiletwgVpv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534372072	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534372075	Marionette	INFO	Listening on port 52483
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52476
+Read port: 52483
+1680534372289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofiletwgVpv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52476/devtools/browser/b9e75777-2288-44de-b732-fcb44d0cbdb2
+1680534380951	Marionette	INFO	Stopped listening on port 52483
+Dynamically enable window occlusion 1
+1680534397812	geckodriver	INFO	Listening on 127.0.0.1:52524
+1680534400837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileKlszhX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534401062	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534401065	Marionette	INFO	Listening on port 52536
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52525
+Read port: 52536
+1680534401261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileKlszhX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52525/devtools/browser/6af4ca79-2c4d-4f64-9955-e4a0686628b0
+1680534878897	Marionette	INFO	Stopped listening on port 52536
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileZoBoyt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534432153	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534432156	Marionette	INFO	Listening on port 52601
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52594
+Read port: 52601
+1680534432358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileZoBoyt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52594/devtools/browser/edf0824d-ab23-494c-8740-eb5e1df4c01d
+1680534879688	Marionette	INFO	Stopped listening on port 52601
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileyidCks"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680534462135	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680534462138	Marionette	INFO	Listening on port 52662
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52651
+Read port: 52662
+1680534462427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileyidCks\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52651/devtools/browser/7b294b69-a128-4446-80c9-36dcdd9b637e
+1680534880556	Marionette	INFO	Stopped listening on port 52662
+Dynamically enable window occlusion 1
+1680535636758	geckodriver	INFO	Listening on 127.0.0.1:52954
+1680535639786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile24XLGq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680535640005	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680535640008	Marionette	INFO	Listening on port 52962
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:52955
+Read port: 52962
+1680535640194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile24XLGq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52955/devtools/browser/5822749c-f80e-4017-b59a-8bb6b4d9d9a2
+1680538277114	Marionette	INFO	Stopped listening on port 52962
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileTNP4yJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680537396110	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680537396113	Marionette	INFO	Listening on port 53360
+Read port: 53360
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:53352
+1680537396183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileTNP4yJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53352/devtools/browser/02d89b1a-7c1d-44a5-85e6-60dc03944821
+1680537456834	Marionette	INFO	Stopped listening on port 53360
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680537499167	geckodriver	INFO	Listening on 127.0.0.1:53420
+1680537502212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7Sux5u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680537502420	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680537502423	Marionette	INFO	Listening on port 53428
+Read port: 53428
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:53421
+1680537502494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofile7Sux5u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53421/devtools/browser/1db56465-0433-41ac-a94c-3838053253c3
+1680538277402	Marionette	INFO	Stopped listening on port 53428
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileO4HWIb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680537587417	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680537587420	Marionette	INFO	Listening on port 53504
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:53497
+Read port: 53504
+1680537587599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileO4HWIb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53497/devtools/browser/7f385cbe-4906-4815-bfd4-4abb3ecf73ca
+1680538277693	Marionette	INFO	Stopped listening on port 53504
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilek8PZog"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680537943680	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680537943683	Marionette	INFO	Listening on port 53642
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:53633
+Read port: 53642
+1680537943874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofilek8PZog\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53633/devtools/browser/e75007dc-7542-4373-a802-9ade664b42d2
+1680538278369	Marionette	INFO	Stopped listening on port 53642
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileeWYsYU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680537999729	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680537999732	Marionette	INFO	Listening on port 53735
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:53728
+Read port: 53735
+1680537999914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileeWYsYU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53728/devtools/browser/20c3152e-5085-447e-aed6-e11bebf92000
+1680538279088	Marionette	INFO	Stopped listening on port 53735
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileNRtZd3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680538273361	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680538273364	Marionette	INFO	Listening on port 53858
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:53848
+Read port: 53858
+1680538273557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileNRtZd3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53848/devtools/browser/463c1d58-8354-461f-ac91-a16198807ddb
+1680538279798	Marionette	INFO	Stopped listening on port 53858
+Dynamically enable window occlusion 1
+1680546989148	geckodriver	INFO	Listening on 127.0.0.1:55551
+1680546992173	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-data-dir=D:/Selenium Projects" "--r ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileeZkCIX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680546992389	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680546992392	Marionette	INFO	Listening on port 55559
+console.error: "Warning: unrecognized command line flag -user-data-dir\n"
+WebDriver BiDi listening on ws://127.0.0.1:55552
+Read port: 55559
+1680546992579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\COMPUT~1\\AppData\\Local\\Temp\\rust_mozprofileeZkCIX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55552/devtools/browser/6cefc651-ed7e-4630-b34a-c32d91825014
+1680547016794	Marionette	INFO	Stopped listening on port 55559
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))

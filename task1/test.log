@@ -615,3 +615,25 @@ Step 'the invoice file should be downloaded' took 0.006999 seconds to execute
 Step 'downloads the invoice' took 5.817666 seconds to execute
 Starting step: 'the invoice file should be downloaded'
 Step 'the invoice file should be downloaded' took 0.0 seconds to execute
+Starting step: 'the user navigates to the shopping website'
+Step 'the user navigates to the shopping website' took 1.942115 seconds to execute
+Starting step: 'the user logs in with valid credentials'
+Step 'the user logs in with valid credentials' took 2.167978 seconds to execute
+Starting step: 'searches for a product'
+Step 'searches for a product' took 0.59232 seconds to execute
+Starting step: 'selects some products to add to the cart'
+Step 'selects some products to add to the cart' took 1.095205 seconds to execute
+Starting step: 'deletes one product from the cart'
+Step 'deletes one product from the cart' took 0.210857 seconds to execute
+Starting step: 'proceeds to checkout'
+Step 'proceeds to checkout' took 0.49612 seconds to execute
+Starting step: 'confirms address and reviews order'
+Step 'confirms address and reviews order' took 0.161764 seconds to execute
+Starting step: 'enters payment information'
+Step 'enters payment information' took 0.038 seconds to execute
+Starting step: 'confirms the payment'
+Step 'confirms the payment' took 1.281228 seconds to execute
+Starting step: 'downloads the invoice'
+Step 'downloads the invoice' took 5.904337 seconds to execute
+Starting step: 'the invoice file should be downloaded'
+Step 'the invoice file should be downloaded' took 0.0 seconds to execute
