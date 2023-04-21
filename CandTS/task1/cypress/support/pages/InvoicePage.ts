@@ -3,12 +3,15 @@ export default class InvoicePage {
   private LOGOUT_BUTTON = 'a[href="/logout"]';
 
   downloadInvoice(): void {
-    cy.get(this.INVOICE_BUTTON).click();
-
-    // Logging out exclusively for the purpose of running the test case recommended by Tyler
-    //cy.get(this.LOGOUT_BUTTON).click();
+    cy.window().then((win) => {
+      const downloadButton = cy.get(this.INVOICE_BUTTON);
+      win.document.addEventListener('click', function clickListener() {
+        win.document.removeEventListener('click', clickListener);
+        setTimeout(() => win.location.reload(), 5000);
+      });
+      downloadButton.click({force: true});
+    });
   }
-
   assertInvoiceDownloaded(): void {
     const fileName = "invoice.txt";
     const downloadFolder = 'cypress/downloads/';
