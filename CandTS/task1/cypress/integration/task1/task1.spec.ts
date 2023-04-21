@@ -10,57 +10,48 @@ import InvoicePage from "../../support/pages/InvoicePage";
 import  "./steps"
 
 describe("Shopping cart functionality", () => {
-    before(() => {
+    it("should navigate to the shopping website, log in with valid credentials, search for a product, add some products to the cart, delete one item from the cart, proceed to check out, confirm address, and review the order; enter payment information, confirm the payment, download the invoice and assert that the invoice had been downloaded",() => {
       const homePage = new HomePage();
+      const loginPage = new LoginPage();
+      const productSearch = new ProductSearch();
+      const productSelection = new ProductSelection();
+      const inTheCart = new InTheCart();
+      const checkoutPage = new CheckoutPage();
+      const payment = new Payment();
+      const invoicepage = new InvoicePage();
+
       homePage.navigate();
       homePage.goToLoginPage();
-    });
-  
-    it("should log in with valid credentials", () => {
-      before(() => {
-        const loginPage = new LoginPage();
-        loginPage.login("bweiler@qac.com", "password");
-        loginPage.goToProductsPage();
-      });
-  
-      it("should search for a product", () => {
-        const productSearch = new ProductSearch();
-        productSearch.search("tshirts");
-      });
-  
-      it("should add some products to the cart", () => {
-        const productSelection = new ProductSelection();
-        productSelection.addProductsToCart(2);
-        productSelection.viewCart();
-      });
-  
-      it("should delete one product from the cart", () => {
-        const inTheCart = new InTheCart();
-        inTheCart.deleteItems(1);
-      });
-  
-      it("should proceed to checkout and confirm address and review order", () => {
-        const inTheCart = new InTheCart();
-        inTheCart.proceedToCheckout();
-        const checkoutPage = new CheckoutPage();
-        checkoutPage.placeOrder();
-      });
-  
-      it("should enter payment information", () => {
-        const payment = new Payment();
-        payment.inputPaymentInfo("Joseph Mama", "1234567891011121", "123", "03", "2023");
-      });
-  
-      it("should confirm the payment", () => {
-        const payment = new Payment();
-        payment.confirmPayment();
-      });
-  
-      it("should download the invoice and assert it was downloaded", () => {
-        const invoicepage = new InvoicePage();
-        invoicepage.downloadInvoice();
-        invoicepage.assertInvoiceDownloaded();
-      });
+
+
+      loginPage.login("bweiler@qac.com", "password");
+      loginPage.goToProductsPage();
+
+
+      productSearch.search("tshirts");
+      
+
+      productSelection.addProductsToCart(2);
+      productSelection.viewCart();
+
+
+      inTheCart.deleteItems(1);
+
+
+      inTheCart.proceedToCheckout();
+
+      checkoutPage.placeOrder();
+
+
+      payment.inputPaymentInfo("Joseph Mama", "1234567891011121", "123", "03", "2023");
+
+
+      payment.confirmPayment();
+
+
+      invoicepage.downloadInvoice();
+      invoicepage.assertInvoiceDownloaded();
+      
     });
   });
   

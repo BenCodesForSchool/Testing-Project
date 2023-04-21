@@ -23,8 +23,13 @@ module.exports = {
       format: 'json:cypress/cucumber-json/cucumber.json',
     },
     setupNodeEvents: (on, config) => {
-      // implement node event listeners here
-    },
+      on('before:browser:launch', (browser = {}, launchOptions) => {
+        if (browser.name === 'chrome') {
+          launchOptions.extensions.push('cypress/extensions/uBlock0_1.47.4.firefox.signed.crx');
+        }
+        return launchOptions;
+      });
+    }
   },
   component: {
     spec: 'cypress/integration/**/*.spec.ts',
