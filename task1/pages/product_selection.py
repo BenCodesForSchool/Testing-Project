@@ -24,8 +24,6 @@ class ProductSelection:
         if WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, "//div[@class='grippy-host']/g[@class='down']"))):
             bottom_ad = self.driver.find_element(*self.BOTTOM_AD)
             bottom_ad.click()"""
-        #A variable that helps count how many items have been added to the cart
-        num_shirts = 0
         #Collecting all buy buttons into a data structure
         shirts = self.driver.find_elements(*self.SHIRTS)
         #Randomly selecting the specified (2, in this case) number of buy buttons for shirts 
@@ -33,8 +31,6 @@ class ProductSelection:
         for shirt in selected_shirts:
             #Clicking the buy buttons for all selected shirts
             shirt.click()
-            #Counting how many buy buttons have been clicked
-            num_shirts += 1
             #Waiting for 3 seconds so that the "continue shopping" button shows up
             time.sleep(3)
             #Clicking on the continue shopping button after each shirt is selected

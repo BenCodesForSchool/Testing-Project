@@ -23,7 +23,7 @@ module.exports = {
       format: 'json:cypress/cucumber-json/cucumber.json',
     },
     setupNodeEvents: (on, config) => {
-      on('before:browser:launch', (browser = {}, launchOptions) => {
+      on('before:browser:launch', (launchOptions, browser = {}) => {
         if (browser.name === 'chrome') {
           launchOptions.extensions.push('cypress/extensions/uBlock0_1.47.4.firefox.signed.crx');
         }

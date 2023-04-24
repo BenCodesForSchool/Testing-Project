@@ -29,12 +29,13 @@ driver.install_addon(r"D:/C DRIVE STUFF/Downloads/uBlock0_1.47.4.firefox.signed.
 #driver.get("https://automationexercise.com")
 
 url = ('https://automationexercise.com/api/createAccount')
+checkbyemailurl = "https://automationexercise.com/api/getUserDetailByEmail"
 
 #CREATING, VERIFYING, UPDATING ADDRESS OF, VERIFYING ADDRESS CHANGE OF, DELETING ONE ACCOUNT
-
+JOHNNY_DIESEL_EMAIL = "JohnnyDiesel@example.com"
 params = {
     "name": "John Doe",
-    "email": "JohnnyDiesel@example.com",
+    "email": JOHNNY_DIESEL_EMAIL,
     "password": "password123",
     "title": "Mr",
     "birth_date": "01",
@@ -58,15 +59,15 @@ oneAccount = requests.post(url, data=params)
 print(oneAccount.content)
 
 email = {
-    "email": "JohnnyDiesel@example.com"
+    "email": JOHNNY_DIESEL_EMAIL
 }
-accountDetails = requests.get("https://automationexercise.com/api/getUserDetailByEmail", params=email)
+accountDetails = requests.get(checkbyemailurl, params=email)
 
 print("Account details = ")
 print( accountDetails.content)
 
 verificationParams = {
-    "email": "JohnnyDiesel@example.com",
+    "email": JOHNNY_DIESEL_EMAIL,
     "password": "password123"
 }
 
@@ -75,7 +76,7 @@ singleVerification = requests.post("https://automationexercise.com/api/verifyLog
 print(singleVerification.content)
 
 updateParams = {
-    "email": "JohnnyDiesel@example.com",
+    "email": JOHNNY_DIESEL_EMAIL,
     "password": "password123",
     "address1": "1 Sheppard Avenue West",
     "address2": "Unit 1000000000000000"
@@ -85,7 +86,7 @@ singleAddressUpdate = requests.put("https://automationexercise.com/api/updateAcc
 
 print(singleAddressUpdate.content)
 
-accountDetails = requests.get("https://automationexercise.com/api/getUserDetailByEmail", params=email)
+accountDetails = requests.get(checkbyemailurl, params=email)
 
 print("Account details after update = ")
 print(accountDetails.content)
@@ -108,7 +109,7 @@ with open(r'D:/Testing-Project/users.csv', newline='') as csvfile:
         userEmail = {
             "email":email
         }
-        accountDetails = requests.get("https://automationexercise.com/api/getUserDetailByEmail", params=userEmail)
+        accountDetails = requests.get(checkbyemailurl, params=userEmail)
         print(accountDetails.content)
 
 with open(r'D:/Testing-Project/users.csv') as csvfile:

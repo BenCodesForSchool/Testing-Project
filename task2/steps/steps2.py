@@ -67,12 +67,10 @@ def step_impl(context):
 
 @then("the user should be able to use the API to verify account details")
 def step_impl(context):
-    email = {
-        "email": context.email
-    }
-    accountDetails = requests.get(context.verify_account_url, params=context.email)
-    assert accountDetails.status_code == 200
-    account_data = accountDetails.json()
+
+    accountdetails = requests.get(context.verify_account_url, params=context.email)
+    assert accountdetails.status_code == 200
+    account_data = accountdetails.json()
     for key  in account_data:
         if hasattr(context, key):
             assert account_data[key] == getattr(context, key)
@@ -81,20 +79,20 @@ def step_impl(context):
 def step_impl(context):
     context.new_address1 = "1 Sheppard Avenue West"
     context.new_address2 = "Unit 1000000000000000"
-    updateParams = {
+    updateparams = {
         "email": context.email,
         "password": context.password,
         "address1": context.new_address1,
         "address2": context.new_address2
     }
-    context.response = requests.put(context.update_account_url, data=updateParams)
+    context.response = requests.put(context.update_account_url, data=updateparams)
 
 
 @then("the address should change on the account")
 def step_impl(context):
-    accountDetails = requests.get(context.verify_account_url, params=context.email)
-    assert accountDetails.status_code == 200
-    account_details = accountDetails.json()
+    accountdetails = requests.get(context.verify_account_url, params=context.email)
+    assert accountdetails.status_code == 200
+    account_details = accountdetails.json()
     for key  in account_details:
         if hasattr(context, key):
             if key == "address1":
@@ -106,16 +104,16 @@ def step_impl(context):
 
 @when("the user attempts to delete the account")
 def step_impl(context):
-    deletionParams = {
+    deletionparams = {
         "email": context.email,
         "password": context.password
     }
-    deleteSingle = requests.delete(context.delete_account_url, data=deletionParams)
-    assert deleteSingle.status_code == 200
+    deletesingle = requests.delete(context.delete_account_url, data=deletionparams)
+    assert deletesingle.status_code == 200
 
 @then("the account should be deleted")
 def step_impl(context):
-    findOutIfDeleted = requests.get(context.verify_account_url, params={"email": context.email})
-    print(findOutIfDeleted.content)
-    assert findOutIfDeleted.content == b'{"responseCode": 404, "message": "Account not found with this email, try another email!"}'
+    findoutifdeleted = requests.get(context.verify_account_url, params={"email": context.email})
+    print(findoutifdeleted.content)
+    assert findoutifdeleted.content == b'{"responseCode": 404, "message": "Account not found with this email, try another email!"}'
 

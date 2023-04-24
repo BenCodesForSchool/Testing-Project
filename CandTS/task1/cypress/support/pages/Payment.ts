@@ -8,12 +8,12 @@ export default class Payment {
     private readonly CONFIRM_PAYMENT_BUTTON = "button[id='submit']";
 
     // Sending specified credit card information to the corresponding text boxes
-    inputPaymentInfo(nameOnCard: string, cardNumber: string, cVc: string, exMonth: string, exYear: string) {
-        cy.get(this.NAME_ON_CARD).type(nameOnCard);
-        cy.get(this.CARD_NUMBER).type(cardNumber);
-        cy.get(this.CVC).type(cVc);
-        cy.get(this.EXPIRATION_MONTH).type(exMonth);
-        cy.get(this.EXPIRATION_YEAR).type(exYear);
+    inputPaymentInfo(nameoncard: string, cardnumber: string, cvc: string, exmonth: string, exyear: string) {
+        cy.get(this.NAME_ON_CARD).type(nameoncard);
+        cy.get(this.CARD_NUMBER).type(cardnumber);
+        cy.get(this.CVC).type(cvc);
+        cy.get(this.EXPIRATION_MONTH).type(exmonth);
+        cy.get(this.EXPIRATION_YEAR).type(exyear);
     }
   
     // Clicking the confirm payment button

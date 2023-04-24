@@ -41,7 +41,7 @@ def before_all(context):
     context.logger = logging.getLogger()
     context.logger.addHandler(file_handler)
 
-def after_all(context):
+def after_all():
     # Get the logger and remove the file handler
     logger = logging.getLogger()
     handlers = logger.handlers[:]
