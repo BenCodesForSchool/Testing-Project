@@ -12,7 +12,7 @@ class Payment:
     def __init__(self, driver):
         self.driver = driver
     #Sending specified credit card information to the corresponding text boxes
-    def input_payment_info(self, nameoncard, cardnumber, cvc, exmonth, exyear):
+    def input_payment_info(self, nameoncard, cardnumber, cvcinput, exmonth, exyear):
         name_on_card = self.driver.find_element(*self.NAME_ON_CARD)
         card_number = self.driver.find_element(*self.CARD_NUMBER)
         cvc = self.driver.find_element(*self.CVC)
@@ -21,7 +21,7 @@ class Payment:
 
         name_on_card.send_keys(nameoncard)
         card_number.send_keys(cardnumber)
-        cvc.send_keys(cvc)
+        cvc.send_keys(cvcinput)
         expiration_month.send_keys(exmonth)
         expiration_year.send_keys(exyear)
     #Clicking the confirm payment button
