@@ -6,8 +6,8 @@ export default class ProductSearch {
   
     //Filling the search box with the search specified in the steps file and clicking the search button
     search(query: string): void {
-      cy.get(this.PRODUCT_SEARCH_BOX).type(query);
-      cy.get(this.SEARCH_BUTTON).click();
+        cy.get(this.PRODUCT_SEARCH_BOX).type(query);
+        cy.get(this.SEARCH_BUTTON).click();
     }
 }
   

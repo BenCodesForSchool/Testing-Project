@@ -5,13 +5,13 @@ export default class LoginPage {
     PRODUCTS_LINK = "a[href='/products']";
 
     login(email: string, password: string) {
-      cy.get(this.EMAIL_INPUT).type(email);
-      cy.get(this.PASSWORD_INPUT).type(password);
-      cy.get(this.LOGIN_BUTTON).click();
-  }
+        cy.get(this.EMAIL_INPUT).type(email);
+        cy.get(this.PASSWORD_INPUT).type(password);
+        cy.get(this.LOGIN_BUTTON).click();
+    }
 
     goToProductsPage() {
-      cy.get(this.PRODUCTS_LINK).click();
-  }
+        cy.get(this.PRODUCTS_LINK).click();
+    }
 }
 
